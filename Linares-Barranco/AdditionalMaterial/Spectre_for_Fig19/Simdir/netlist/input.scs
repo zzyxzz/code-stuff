@@ -1,0 +1,324 @@
+// Generated for: spectre
+// Generated on: Nov 12 10:09:13 2010
+// Design library name: memr
+// Design cell name: memr_array_if2_HVfet
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!
+parameters Vmin=0 Vmax=1 atten=100m Vrefg=0.9 TDpre=2.5m Tperiod=200m \
+    Vtp=7.5 Vtn=-7.5 vlim=100 gmemr=10u Cr=10n betap=1 betan=1 alpha=0 H=4 \
+    Ib=100u Vth=0.5 Vsupply=3.3 Vref=0.9 Vlow=0.7 Vith=2 Vhigh=2.7 Vd=.03 \
+    It=1p Ih=200p Iba3=1u Iba2=1u Iba1=1u
+
+//****************************************************************
+//*********    ATTENTION    **************************************
+//****************************************************************
+//SUBSTITUTE by your files to vendor MOS, RESISTOR AND CAPACITOR models
+include "<YOUR VENDOR FILES HERE>"
+include "<YOUR VENDOR FILES HERE>"
+include "<YOUR VENDOR FILES HERE>"
+include ...
+//modnh is high voltage nmos model
+//cpoly is poly capacitor
+//pd is diode model
+//modn is normal nmos
+//modp is normal pmos 
+//****************************************************************
+
+// Library name: memr
+// Cell name: fe_fet
+// View name: schematic
+subckt fe_fet B D E G S
+parameters _par0 Einit x1 y1 x2 y2 x3 y3 x4 y4
+    MN0 (D net38 S B) modnh w=10u l=10u nrd=0.05 nrs=0.05 ad=8.5e-12 \
+        as=8.5e-12 pd=11.7u ps=11.7u m=1
+    V3 (net034 0) vsource dc=-10 type=dc
+    V2 (net036 0) vsource dc=10 type=dc
+    C0 (E 0) capacitor c=_par0 ic=Einit
+    G1 (0 E G S) vccs m=gmemr pwl=[ x1 y1 x2 y2 x3 y3 x4 y4 ]
+    G0 (0 E G D) vccs m=gmemr pwl=[ x1 y1 x2 y2 x3 y3 x4 y4 ]
+    D1 (net064 E) nd area=100p perimeter=40u m=1
+    D0 (E net068) nd area=100p perimeter=40u m=1
+    E6 (net38 B net063 B) vcvs pwl=[ -9 -0.5 -0.23 0.15 0 0.2 0.2 0.6 8 \
+        0.8 20 3.3 ]
+    E0 (net063 G E 0) vcvs gain=0.5
+    E5 (net064 0 net034 E) vcvs gain=100
+    E4 (net068 0 net036 E) vcvs gain=100
+ends fe_fet
+// End of subcircuit definition.
+
+// Library name: memr
+// Cell name: R5switched
+// View name: schematic
+subckt R5switched B T subs sw1 sw2 sw3
+    MN4 (T sw3 net061 subs) modnh w=12.5u l=3u nrd=0.04 nrs=0.04 ad=4e-11 \
+        as=1.0625e-11 pd=18.9u ps=14.2u m=1
+    MN2 (T sw1 net21 subs) modnh w=12.5u l=3u nrd=0.04 nrs=0.04 ad=4e-11 \
+        as=1.0625e-11 pd=18.9u ps=14.2u m=1
+    MN0 (T sw2 net24 subs) modnh w=12.5u l=3u nrd=0.04 nrs=0.04 ad=4e-11 \
+        as=1.0625e-11 pd=18.9u ps=14.2u m=1
+    R0 (net21 B) rpolyh w=1u l=113.35u m=1
+    R1 (net24 B) rpolyh w=1u l=46.65u m=1
+    R2 (net061 B) rpolyh w=1u l=13.35u m=1
+ends R5switched
+// End of subcircuit definition.
+
+// Library name: memr
+// Cell name: hv_opamp
+// View name: schematic
+subckt hv_opamp Ib VddH subs sw1 sw2 sw3 vinm vinp vout Vdd
+    C0 (net50 vout) cpoly area=1.138e-09 perimeter=247.6u m=1
+    D0 (net79 Vdd) pd area=100p perimeter=40u m=1
+    I3 (vout net24 subs sw1 sw2 sw3) R5switched
+    I0 (net79 net12 subs sw1 sw2 sw3) R5switched
+    I1 (net41 net62 subs sw1 sw2 sw3) R5switched
+    MN3 (vout net50 subs subs) modnh w=50u l=3u nrd=0.01 nrs=0.01 \
+        ad=1.6e-10 as=4.25e-11 pd=56.4u ps=51.7u m=1
+    MN5 (net41 Ib subs subs) modn w=10u l=3u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MN6 (Ib Ib subs subs) modn w=10u l=3u as=8.5e-12 ad=8.5e-12 ps=11.7u \
+        pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP1 (net50 net39 subs subs) modn w=10u l=3u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP0 (net39 net39 subs subs) modn w=10u l=3u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP5 (net24 net62 VddH VddH) modp w=25u l=1u as=2.125e-11 ad=2.125e-11 \
+        ps=26.7u pd=26.7u nrd=0.02 nrs=0.02 ng=1
+    MP3 (net62 net62 VddH VddH) modp w=10u l=1u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MP2 (net12 net62 VddH VddH) modp w=10u l=1u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MN1 (net50 vinp net79 net79) modp w=10u l=1u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+    MN0 (net39 vinm net79 net79) modp w=10u l=1u as=8.5e-12 ad=8.5e-12 \
+        ps=11.7u pd=11.7u nrd=0.05 nrs=0.05 ng=1
+ends hv_opamp
+// End of subcircuit definition.
+
+// Library name: memr
+// Cell name: hv
+// View name: schematic
+subckt hv in out Vdd VddH sw1 sw2 sw3
+    I0 (net25 VddH 0 sw1 sw2 sw3 net35 in out Vdd) hv_opamp
+    V0 (net30 0) vsource dc=Vrefg type=dc
+    R1 (net35 out) resistor r=(H-1)*1000K
+    R0 (net35 net30) resistor r=1000K
+    I4 (0 net25) isource dc=Ib type=dc
+    C0 (out 0) capacitor c=10p
+ends hv
+// End of subcircuit definition.
+
+// Library name: Frequent_Cells
+// Cell name: ota_p
+// View name: schematic
+subckt ota_p gnd_ana out subs vb vdd_ana vn vp well
+parameters wn ln wb lb wp lp
+    M4 (net28 net28 gnd_ana subs) modn w=wn l=ln as=1.1e-11 ad=1.1e-11 \
+        ps=12.2u pd=12.2u nrd=0.06 nrs=0.06 ng=1
+    M3 (out net28 gnd_ana subs) modn w=wn l=ln as=1.1e-11 ad=1.1e-11 \
+        ps=12.2u pd=12.2u nrd=0.06 nrs=0.06 ng=1
+    M2_0 (net062 vb vdd_ana well) modp w=wb l=lb as=1.1e-11 ad=1.1e-11 \
+        ps=12.2u pd=12.2u nrd=0.06 nrs=0.06 ng=1
+    M2_1 (net062 vb vdd_ana well) modp w=wb l=lb as=1.1e-11 ad=1.1e-11 \
+        ps=12.2u pd=12.2u nrd=0.06 nrs=0.06 ng=1
+    M1 (out vn net062 well) modp w=wp l=lp as=1.1e-11 ad=1.1e-11 ps=12.2u \
+        pd=12.2u nrd=0.06 nrs=0.06 ng=1
+    M0 (net28 vp net062 well) modp w=wp l=lp as=1.1e-11 ad=1.1e-11 \
+        ps=12.2u pd=12.2u nrd=0.06 nrs=0.06 ng=1
+ends ota_p
+// End of subcircuit definition.
+
+// Library name: Frequent_Cells
+// Cell name: invp
+// View name: schematic
+subckt invp bulk gnd in out vdd well
+parameters wp=1u lp=0.3u wn=1u ln=0.3u
+    M8 (out in vdd well) modp w=wp l=lp as=1.1e-12 ad=1.1e-12 ps=3.2u \
+        pd=3.2u nrd=0.6 nrs=0.6 ng=1
+    M9 (out in gnd bulk) modn w=wn l=ln as=1.1e-12 ad=1.1e-12 ps=3.2u \
+        pd=3.2u nrd=0.6 nrs=0.6 ng=1
+ends invp
+// End of subcircuit definition.
+
+// Library name: memr
+// Cell name: triggered_spike
+// View name: schematic
+subckt triggered_spike vin vout vsw
+    V1 (net090 0) vsource dc=0 type=pulse val0=0 val1=3.3 period=100 \
+        delay=0 rise=1p fall=1p width=100n
+    I63 (0 net0193 0 net080 vdd! vin net0214 vdd!) ota_p wn=.3u ln=1u \
+        wb=.3u lb=1u wp=.3u lp=1u
+    I73 (0 net0167 0 net0221 vdd! net0167 net099 vdd!) ota_p wn=.3u ln=1u \
+        wb=.3u lb=1u wp=.3u lp=1u
+    I65 (0 net083 0 net095 vdd! net0204 net099 vdd!) ota_p wn=.3u ln=1u \
+        wb=.3u lb=1u wp=.3u lp=1u
+    MP18 (net0153 vsw net0149 vdd!) modp w=1u l=0.35u as=8.5e-13 \
+        ad=8.5e-13 ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP16 (net091 net29 net087 vdd!) modp w=5u l=0.35u as=4.25e-12 \
+        ad=4.25e-12 ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP13 (net0119 net0119 net0150 vdd!) modp w=1u l=0.35u as=8.5e-13 \
+        ad=8.5e-13 ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP17 (net085 net082 net087 vdd!) modp w=5u l=0.35u as=4.25e-12 \
+        ad=4.25e-12 ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP22 (net0221 net0221 vdd! vdd!) modp w=1u l=0.35u as=8.5e-13 \
+        ad=8.5e-13 ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP20 (net095 net095 vdd! vdd!) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP15 (net0160 net15 net091 vdd!) modp w=0.8u l=0.35u as=6.8e-13 \
+        ad=6.8e-13 ps=2.5u pd=2.5u nrd=0.625 nrs=0.625 ng=1
+    MP12 (net099 net0119 net0150 vdd!) modp w=1u l=0.35u as=8.5e-13 \
+        ad=8.5e-13 ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP2 (vout net15 net21 vdd!) modp w=0.8u l=0.35u as=6.8e-13 ad=6.8e-13 \
+        ps=2.5u pd=2.5u nrd=0.625 nrs=0.625 ng=1
+    MP1 (net21 net29 net3 vdd!) modp w=5u l=0.35u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MN1 (net29 net15 net12 vdd!) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP19 (net080 net080 vdd! vdd!) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MP0 (net20 net6 net3 vdd!) modp w=5u l=0.35u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    I61 (0 0 vsw net0231 vdd! vdd!) invp wp=2u lp=0.3u wn=2u ln=0.3u
+    I71 (0 0 net0193 net0153 vdd! vdd!) invp wp=1u lp=0.3u wn=1u ln=0.3u
+    I58 (0 0 net15 net0149 vdd! vdd!) invp wp=.8u lp=2u wn=.8u ln=2u
+    I68 (0 0 net083 vsw vdd! vdd!) invp wp=1u lp=0.3u wn=1u ln=0.3u
+    I3 (0 0 net0149 net15 vdd! vdd!) invp wp=2u lp=0.3u wn=2u ln=0.3u
+    MN21 (net0149 net090 0 0) modn w=10u l=0.35u as=1.1e-11 ad=1.1e-11 \
+        ps=12.2u pd=12.2u nrd=0.06 nrs=0.06 ng=1
+    MN16 (net0160 net085 net0159 0) modn w=5u l=0.35u as=4.25e-12 \
+        ad=4.25e-12 ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MN17 (net085 net085 net0159 0) modn w=5u l=0.35u as=4.25e-12 \
+        ad=4.25e-12 ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MN14 (net099 net0160 net0146 0) modn w=1u l=0.35u as=8.5e-13 \
+        ad=8.5e-13 ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MN3 (vout net20 net0167 0) modn w=5u l=0.35u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MN2 (net20 net20 net0167 0) modn w=5u l=0.35u as=4.25e-12 ad=4.25e-12 \
+        ps=6.7u pd=6.7u nrd=0.1 nrs=0.1 ng=1
+    MP21 (net0153 net0231 net0149 0) modn w=1u l=0.35u as=8.5e-13 \
+        ad=8.5e-13 ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MN0 (net29 net15 0 0) modn w=10u l=0.35u as=1.1e-11 ad=1.1e-11 \
+        ps=12.2u pd=12.2u nrd=0.06 nrs=0.06 ng=1
+    I28 (net080 0) isource dc=Iba1 type=dc
+    I29 (net095 0) isource dc=Iba2 type=dc
+    I27 (net0119 0) isource dc=It type=dc
+    I30 (net0221 0) isource dc=Iba3 type=dc
+    I0 (vdd! net12) isource dc=Ih type=dc
+    V19 (net0204 0) vsource dc=Vrefg-Vd type=dc
+    V16 (net0159 0) vsource dc=Vlow type=dc
+    V14 (net087 net082) vsource dc=Vth type=dc
+    V15 (net087 0) vsource dc=Vhigh type=dc
+    V12 (net0150 0) vsource dc=Vrefg type=dc
+    V11 (net0146 0) vsource dc=Vlow type=dc
+    V4 (net3 net6) vsource dc=Vth type=dc
+    V3 (net3 0) vsource dc=Vhigh type=dc
+    V0 (net0214 0) vsource dc=Vith type=dc
+    C3 (net099 0) capacitor c=100f
+    C0 (net29 0) capacitor c=100f
+ends triggered_spike
+// End of subcircuit definition.
+
+// Library name: memr
+// Cell name: memr_array_if2_HVfet
+// View name: schematic
+I52 (0 vm1 r41 vo4 net0307) fe_fet _par0=Cr Einit=0 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I51 (0 vm3 r43 vo4 net0307) fe_fet _par0=Cr Einit=2 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I50 (0 vm2 r42 vo4 net0307) fe_fet _par0=Cr Einit=1 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I47 (0 vm4 r44 vo4 net0307) fe_fet _par0=Cr Einit=3 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I42 (0 vm4 r34 vo3 net072) fe_fet _par0=Cr Einit=3 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I41 (0 vm2 r32 vo3 net072) fe_fet _par0=Cr Einit=5 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I40 (0 vm3 r33 vo3 net072) fe_fet _par0=Cr Einit=4 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I39 (0 vm1 r31 vo3 net072) fe_fet _par0=Cr Einit=6 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I31 (0 vm4 r24 vo2 net077) fe_fet _par0=Cr Einit=-2 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I32 (0 vm2 r22 vo2 net077) fe_fet _par0=Cr Einit=-1 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I33 (0 vm3 r23 vo2 net077) fe_fet _par0=Cr Einit=-3 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I34 (0 vm1 r21 vo2 net077) fe_fet _par0=Cr Einit=4 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I17 (0 vm4 r14 vo1 net064) fe_fet _par0=Cr Einit=-2 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I15 (0 vm2 r12 vo1 net064) fe_fet _par0=Cr Einit=0 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I16 (0 vm3 r13 vo1 net064) fe_fet _par0=Cr Einit=3 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I0 (0 vm1 r11 vo1 net064) fe_fet _par0=Cr Einit=-2 x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp)
+I53 (net0155 vo4 vdd! VddH VddH VddH 0) hv
+I43 (net0158 vo3 vdd! VddH VddH VddH 0) hv
+I35 (net0161 vo2 vdd! VddH VddH VddH 0) hv
+I28 (net070 vo1 vdd! VddH VddH VddH 0) hv
+MN5 (net0139 net0138 net0307 0) modn w=1u l=1u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+MN4 (net0143 net0142 net072 0) modn w=1u l=1u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+MN3 (net0147 net0146 net077 0) modn w=1u l=1u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+MN0 (net028 net021 net064 0) modn w=1u l=1u as=8.5e-13 ad=8.5e-13 ps=2.7u \
+        pd=2.7u nrd=0.5 nrs=0.5 ng=1
+I54 (net0139 net0155 net0138) triggered_spike
+I44 (net0143 net0158 net0142) triggered_spike
+I36 (net0147 net0161 net0146) triggered_spike
+I24 (net028 net070 net021) triggered_spike
+C3 (net0307 net0139) capacitor c=500p ic=0
+C2 (net072 net0143) capacitor c=500p ic=0
+C1 (net077 net0147) capacitor c=500p ic=0
+C0 (net064 net028) capacitor c=500p ic=0
+E3 (net0139 0 net0196 net0307) vcvs gain=1000.0
+E2 (net0143 0 net0200 net072) vcvs gain=1000.0
+E1 (net0147 0 net0202 net077) vcvs gain=1000.0
+E0 (net028 0 net069 net064) vcvs gain=1000.0
+V14 (vm4 0) vsource type=pwl delay=TDpre+160m pwlperiod=3*Tperiod wave=[ 0 \
+        Vref 100.0u 8 1m 8 1.1m 200.0m 50m Vref ]
+V17 (vm3 0) vsource type=pwl delay=TDpre+120m pwlperiod=2*Tperiod wave=[ 0 \
+        Vref 100.0u 8 1m 8 1.1m 200.0m 50m Vref ]
+V11 (vm1 0) vsource type=pwl delay=TDpre pwlperiod=Tperiod wave=[ 0 Vref \
+        100.0u 8 2.8m 8 2.9m 200.0m 44.9m Vref ]
+V13 (vm2 0) vsource type=pwl delay=TDpre+7m pwlperiod=Tperiod wave=[ 0 \
+        Vref 100.0u 8 2.8m 8 2.9m 200.0m 44.9m Vref ]
+V20 (net0200 0) vsource dc=Vref type=dc
+V12 (net0196 0) vsource dc=Vref type=dc
+V8 (net0202 0) vsource dc=Vref type=dc
+V7 (VddH 0) vsource dc=H*Vsupply type=dc
+V6 (net069 0) vsource dc=Vref type=dc
+V9 (vdd! 0) vsource dc=Vsupply type=dc
+ic I24.net0149=0E 
+simulatorOptions options reltol=100e-6 vabstol=1e-6 iabstol=1e-14 temp=27 \
+    tnom=27 homotopy=all limit=delta scalem=1.0 scale=1.0 \
+    compatible=spice2 gmin=1e-14 rforce=1 maxnotes=5 maxwarns=5 digits=5 \
+    cols=80 pivrel=1e-3 sensfile="../psf/sens.output" checklimitdest=psf 
+tran tran stop=50 errpreset=conservative write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts  where=rawfile
+save vm1 vm2 vm3 vm4 vo1 net064 r14 r12 r11 r13 r24 r22 r21 r23 r33 r34 \
+    r32 r31 r43 r41 r42 r44 net077 vo2 net072 vo3 vo4 net0307 net021 \
+    net028 net0146 net0147 net0142 net0143 net0138 net0139 net0161 net070 \
+    net0158 net0155 

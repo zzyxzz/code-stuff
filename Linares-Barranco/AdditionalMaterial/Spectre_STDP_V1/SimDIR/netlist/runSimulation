@@ -1,0 +1,1 @@
+/cad/CADENCE_08/MMSIM_7.01_HF076/tools/bin/spectre  -env artist5.1.0 +escchars +log ../psf/spectre.out -format sst2 -raw ../psf   +lqtimeout 900 input.scs 

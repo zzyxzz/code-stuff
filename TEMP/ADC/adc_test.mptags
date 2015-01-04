@@ -1,0 +1,1130 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+A10M	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	697;"	m	line:697	struct:tagI2CCONBITS
+ABAUD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	755;"	m	line:755	struct:tagUxMODEBITS
+ACC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	93;"	t	line:93
+ACCSAT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	176;"	m	line:176	struct:tagCORCONBITS
+ACKDT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	692;"	m	line:692	struct:tagI2CCONBITS
+ACKEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	691;"	m	line:691	struct:tagI2CCONBITS
+ACKSTAT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	722;"	m	line:722	struct:tagI2CSTATBITS
+ADCHSBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	959;"	t	line:959
+ADCHS_VALUE::0x0000	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	31;"	d	line:31
+ADCMD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1183;"	m	line:1183	struct:tagPMD1BITS
+ADCON1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	921;"	t	line:921
+ADCON1_VALUE::0x0000	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	28;"	d	line:28
+ADCON2BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	936;"	t	line:936
+ADCON2_VALUE::0x0000	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	29;"	d	line:29
+ADCON3BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	947;"	t	line:947
+ADCON3_VALUE::0x0000	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	30;"	d	line:30
+ADCS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	942;"	m	line:942	struct:tagADCON3BITS
+ADCSSLBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	989;"	t	line:989
+ADCSSL_VALUE::0x0000	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	33;"	d	line:33
+ADC_ALT_BUF_OFF::0xEFFD	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	126;"	d	line:126
+ADC_ALT_BUF_ON::0xEFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	125;"	d	line:125
+ADC_ALT_INPUT_OFF::0xEFFE	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	132;"	d	line:132
+ADC_ALT_INPUT_ON::0xEFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	129;"	d	line:129
+ADC_AUTO_SAMPLING_OFF::0xFFFB	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	68;"	d	line:68
+ADC_AUTO_SAMPLING_ON::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	65;"	d	line:65
+ADC_CH0_NEG_SAMPLEA_AN1::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	258;"	d	line:258
+ADC_CH0_NEG_SAMPLEA_NVREF::0xFFEF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	259;"	d	line:259
+ADC_CH0_NEG_SAMPLEA_VREFN::0xFFEF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	260;"	d	line:260
+ADC_CH0_NEG_SAMPLEB_AN1::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	279;"	d	line:279
+ADC_CH0_NEG_SAMPLEB_NVREF::0xEFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	280;"	d	line:280
+ADC_CH0_NEG_SAMPLEB_VREFN::0xEFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	281;"	d	line:281
+ADC_CH0_POS_SAMPLEA_AN0::0xFFF0	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	256;"	d	line:256
+ADC_CH0_POS_SAMPLEA_AN10::0xFFFA	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	246;"	d	line:246
+ADC_CH0_POS_SAMPLEA_AN11::0xFFFB	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	245;"	d	line:245
+ADC_CH0_POS_SAMPLEA_AN12::0xFFFC	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	244;"	d	line:244
+ADC_CH0_POS_SAMPLEA_AN13::0xFFFD	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	243;"	d	line:243
+ADC_CH0_POS_SAMPLEA_AN14::0xFFFE	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	242;"	d	line:242
+ADC_CH0_POS_SAMPLEA_AN15::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	241;"	d	line:241
+ADC_CH0_POS_SAMPLEA_AN1::0xFFF1	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	255;"	d	line:255
+ADC_CH0_POS_SAMPLEA_AN2::0xFFF2	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	254;"	d	line:254
+ADC_CH0_POS_SAMPLEA_AN3::0xFFF3	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	253;"	d	line:253
+ADC_CH0_POS_SAMPLEA_AN4::0xFFF4	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	252;"	d	line:252
+ADC_CH0_POS_SAMPLEA_AN5::0xFFF5	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	251;"	d	line:251
+ADC_CH0_POS_SAMPLEA_AN6::0xFFF6	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	250;"	d	line:250
+ADC_CH0_POS_SAMPLEA_AN7::0xFFF7	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	249;"	d	line:249
+ADC_CH0_POS_SAMPLEA_AN8::0xFFF8	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	248;"	d	line:248
+ADC_CH0_POS_SAMPLEA_AN9::0xFFF9	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	247;"	d	line:247
+ADC_CH0_POS_SAMPLEB_AN0::0xF0FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	277;"	d	line:277
+ADC_CH0_POS_SAMPLEB_AN10::0xFAFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	267;"	d	line:267
+ADC_CH0_POS_SAMPLEB_AN11::0xFBFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	266;"	d	line:266
+ADC_CH0_POS_SAMPLEB_AN12::0xFCFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	265;"	d	line:265
+ADC_CH0_POS_SAMPLEB_AN13::0xFDFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	264;"	d	line:264
+ADC_CH0_POS_SAMPLEB_AN14::0xFEFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	263;"	d	line:263
+ADC_CH0_POS_SAMPLEB_AN15::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	262;"	d	line:262
+ADC_CH0_POS_SAMPLEB_AN1::0xF1FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	276;"	d	line:276
+ADC_CH0_POS_SAMPLEB_AN2::0xF2FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	275;"	d	line:275
+ADC_CH0_POS_SAMPLEB_AN3::0xF3FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	274;"	d	line:274
+ADC_CH0_POS_SAMPLEB_AN4::0xF4FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	273;"	d	line:273
+ADC_CH0_POS_SAMPLEB_AN5::0xF5FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	272;"	d	line:272
+ADC_CH0_POS_SAMPLEB_AN6::0xF6FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	271;"	d	line:271
+ADC_CH0_POS_SAMPLEB_AN7::0xF7FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	270;"	d	line:270
+ADC_CH0_POS_SAMPLEB_AN8::0xF8FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	269;"	d	line:269
+ADC_CH0_POS_SAMPLEB_AN9::0xF9FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	268;"	d	line:268
+ADC_CLK_AUTO::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	50;"	d	line:50
+ADC_CLK_INT0::0xFF3F	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	59;"	d	line:59
+ADC_CLK_MANUAL::0xFF1F	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	62;"	d	line:62
+ADC_CLK_MPWM::0xFF7F	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	53;"	d	line:53
+ADC_CLK_TMR::0xFF5F	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	56;"	d	line:56
+ADC_CONV_CLK_10Tcy::0xFFD3	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	219;"	d	line:219
+ADC_CONV_CLK_11Tcy2::0xFFCA	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	228;"	d	line:228
+ADC_CONV_CLK_11Tcy::0xFFD5	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	217;"	d	line:217
+ADC_CONV_CLK_12Tcy::0xFFD7	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	215;"	d	line:215
+ADC_CONV_CLK_13Tcy2::0xFFCC	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	226;"	d	line:226
+ADC_CONV_CLK_13Tcy::0xFFD9	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	213;"	d	line:213
+ADC_CONV_CLK_14Tcy::0xFFDB	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	211;"	d	line:211
+ADC_CONV_CLK_15Tcy2::0xFFCE	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	224;"	d	line:224
+ADC_CONV_CLK_15Tcy::0xFFDD	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	209;"	d	line:209
+ADC_CONV_CLK_16Tcy::0xFFDF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	207;"	d	line:207
+ADC_CONV_CLK_17Tcy2::0xFFD0	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	222;"	d	line:222
+ADC_CONV_CLK_17Tcy::0xFFE1	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	205;"	d	line:205
+ADC_CONV_CLK_18Tcy::0xFFE3	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	203;"	d	line:203
+ADC_CONV_CLK_19Tcy2::0xFFD2	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	220;"	d	line:220
+ADC_CONV_CLK_19Tcy::0xFFE5	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	201;"	d	line:201
+ADC_CONV_CLK_20Tcy::0xFFE7	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	199;"	d	line:199
+ADC_CONV_CLK_21Tcy2::0xFFD4	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	218;"	d	line:218
+ADC_CONV_CLK_21Tcy::0xFFE9	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	197;"	d	line:197
+ADC_CONV_CLK_22Tcy::0xFFEB	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	195;"	d	line:195
+ADC_CONV_CLK_23Tcy2::0xFFD6	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	216;"	d	line:216
+ADC_CONV_CLK_23Tcy::0xFFED	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	193;"	d	line:193
+ADC_CONV_CLK_24Tcy::0xFFEF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	191;"	d	line:191
+ADC_CONV_CLK_25Tcy2::0xFFD8	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	214;"	d	line:214
+ADC_CONV_CLK_25Tcy::0xFFF1	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	189;"	d	line:189
+ADC_CONV_CLK_26Tcy::0xFFF3	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	187;"	d	line:187
+ADC_CONV_CLK_27Tcy2::0xFFDA	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	212;"	d	line:212
+ADC_CONV_CLK_27Tcy::0xFFF5	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	185;"	d	line:185
+ADC_CONV_CLK_28Tcy::0xFFF7	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	183;"	d	line:183
+ADC_CONV_CLK_29Tcy2::0xFFDC	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	210;"	d	line:210
+ADC_CONV_CLK_29Tcy::0xFFF9	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	181;"	d	line:181
+ADC_CONV_CLK_2Tcy::0xFFC3	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	235;"	d	line:235
+ADC_CONV_CLK_30Tcy::0xFFFB	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	179;"	d	line:179
+ADC_CONV_CLK_31Tcy2::0xFFDE	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	208;"	d	line:208
+ADC_CONV_CLK_31Tcy::0xFFFD	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	177;"	d	line:177
+ADC_CONV_CLK_32Tcy::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	175;"	d	line:175
+ADC_CONV_CLK_33Tcy2::0xFFE0	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	206;"	d	line:206
+ADC_CONV_CLK_35Tcy2::0xFFE2	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	204;"	d	line:204
+ADC_CONV_CLK_37Tcy2::0xFFE4	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	202;"	d	line:202
+ADC_CONV_CLK_39Tcy2::0xFFE6	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	200;"	d	line:200
+ADC_CONV_CLK_3Tcy2::0xFFC2	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	236;"	d	line:236
+ADC_CONV_CLK_3Tcy::0xFFC5	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	233;"	d	line:233
+ADC_CONV_CLK_41Tcy2::0xFFE8	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	198;"	d	line:198
+ADC_CONV_CLK_43Tcy2::0xFFEA	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	196;"	d	line:196
+ADC_CONV_CLK_45Tcy2::0xFFEC	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	194;"	d	line:194
+ADC_CONV_CLK_47Tcy2::0xFFEE	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	192;"	d	line:192
+ADC_CONV_CLK_49Tcy2::0xFFF0	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	190;"	d	line:190
+ADC_CONV_CLK_4Tcy::0xFFC7	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	231;"	d	line:231
+ADC_CONV_CLK_51Tcy2::0xFFF2	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	188;"	d	line:188
+ADC_CONV_CLK_53Tcy2::0xFFF4	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	186;"	d	line:186
+ADC_CONV_CLK_55Tcy2::0xFFF6	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	184;"	d	line:184
+ADC_CONV_CLK_57Tcy2::0xFFF8	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	182;"	d	line:182
+ADC_CONV_CLK_59Tcy2::0xFFFA	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	180;"	d	line:180
+ADC_CONV_CLK_5Tcy2::0xFFC4	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	234;"	d	line:234
+ADC_CONV_CLK_5Tcy::0xFFC9	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	229;"	d	line:229
+ADC_CONV_CLK_61Tcy2::0xFFFC	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	178;"	d	line:178
+ADC_CONV_CLK_63Tcy2::0xFFFE	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	176;"	d	line:176
+ADC_CONV_CLK_6Tcy::0xFFCB	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	227;"	d	line:227
+ADC_CONV_CLK_7Tcy2::0xFFC6	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	232;"	d	line:232
+ADC_CONV_CLK_7Tcy::0xFFCD	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	225;"	d	line:225
+ADC_CONV_CLK_8Tcy::0xFFCF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	223;"	d	line:223
+ADC_CONV_CLK_9Tcy2::0xFFC8	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	230;"	d	line:230
+ADC_CONV_CLK_9Tcy::0xFFD1	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	221;"	d	line:221
+ADC_CONV_CLK_INTERNAL_RC::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	169;"	d	line:169
+ADC_CONV_CLK_SYSTEM::0xFF7F	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	172;"	d	line:172
+ADC_CONV_CLK_Tcy2::0xFFC0	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	238;"	d	line:238
+ADC_CONV_CLK_Tcy::0xFFC1	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	237;"	d	line:237
+ADC_FORMAT_FRACT::0xFEFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	44;"	d	line:44
+ADC_FORMAT_INTG::0xFCFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	46;"	d	line:46
+ADC_FORMAT_SIGN_FRACT::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	43;"	d	line:43
+ADC_FORMAT_SIGN_INT::0xFDFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	45;"	d	line:45
+ADC_IDLE_CONTINUE::0xDFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	40;"	d	line:40
+ADC_IDLE_STOP::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	41;"	d	line:41
+ADC_INT_DISABLE::0xFFF7	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	344;"	d	line:344
+ADC_INT_ENABLE::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	343;"	d	line:343
+ADC_INT_PRI_0::0xFFF8	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	332;"	d	line:332
+ADC_INT_PRI_1::0xFFF9	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	333;"	d	line:333
+ADC_INT_PRI_2::0xFFFA	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	334;"	d	line:334
+ADC_INT_PRI_3::0xFFFB	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	335;"	d	line:335
+ADC_INT_PRI_4::0xFFFC	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	336;"	d	line:336
+ADC_INT_PRI_5::0xFFFD	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	337;"	d	line:337
+ADC_INT_PRI_6::0xFFFE	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	338;"	d	line:338
+ADC_INT_PRI_7::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	339;"	d	line:339
+ADC_MODULE_OFF::0x7FFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	38;"	d	line:38
+ADC_MODULE_ON::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	37;"	d	line:37
+ADC_RESULT_FIRST::0x0000	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	284;"	d	line:284
+ADC_RESULT_SECOND::0x0008	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	285;"	d	line:285
+ADC_SAMPLES_PER_INT_10::0xEFE7	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	110;"	d	line:110
+ADC_SAMPLES_PER_INT_11::0xEFEB	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	112;"	d	line:112
+ADC_SAMPLES_PER_INT_12::0xEFEF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	114;"	d	line:114
+ADC_SAMPLES_PER_INT_13::0xEFF3	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	116;"	d	line:116
+ADC_SAMPLES_PER_INT_14::0xEFF7	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	118;"	d	line:118
+ADC_SAMPLES_PER_INT_15::0xEFFB	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	120;"	d	line:120
+ADC_SAMPLES_PER_INT_16::0xEFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	122;"	d	line:122
+ADC_SAMPLES_PER_INT_1::0xEFC3	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	92;"	d	line:92
+ADC_SAMPLES_PER_INT_2::0xEFC7	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	94;"	d	line:94
+ADC_SAMPLES_PER_INT_3::0xEFCB	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	96;"	d	line:96
+ADC_SAMPLES_PER_INT_4::0xEFCF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	98;"	d	line:98
+ADC_SAMPLES_PER_INT_5::0xEFD3	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	100;"	d	line:100
+ADC_SAMPLES_PER_INT_6::0xEFD7	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	102;"	d	line:102
+ADC_SAMPLES_PER_INT_7::0xEFDB	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	104;"	d	line:104
+ADC_SAMPLES_PER_INT_8::0xEFDF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	106;"	d	line:106
+ADC_SAMPLES_PER_INT_9::0xEFE3	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	108;"	d	line:108
+ADC_SAMPLE_TIME_0::0xE0FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	135;"	d	line:135
+ADC_SAMPLE_TIME_10::0xEAFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	145;"	d	line:145
+ADC_SAMPLE_TIME_11::0xEBFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	146;"	d	line:146
+ADC_SAMPLE_TIME_12::0xECFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	147;"	d	line:147
+ADC_SAMPLE_TIME_13::0xEDFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	148;"	d	line:148
+ADC_SAMPLE_TIME_14::0xEEFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	149;"	d	line:149
+ADC_SAMPLE_TIME_15::0xEFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	150;"	d	line:150
+ADC_SAMPLE_TIME_16::0xF0FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	151;"	d	line:151
+ADC_SAMPLE_TIME_17::0xF1FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	152;"	d	line:152
+ADC_SAMPLE_TIME_18::0xF2FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	153;"	d	line:153
+ADC_SAMPLE_TIME_19::0xF3FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	154;"	d	line:154
+ADC_SAMPLE_TIME_1::0xE1FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	136;"	d	line:136
+ADC_SAMPLE_TIME_20::0xF4FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	155;"	d	line:155
+ADC_SAMPLE_TIME_21::0xF5FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	156;"	d	line:156
+ADC_SAMPLE_TIME_22::0xF6FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	157;"	d	line:157
+ADC_SAMPLE_TIME_23::0xF7FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	158;"	d	line:158
+ADC_SAMPLE_TIME_24::0xF8FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	159;"	d	line:159
+ADC_SAMPLE_TIME_25::0xF9FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	160;"	d	line:160
+ADC_SAMPLE_TIME_26::0xFAFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	161;"	d	line:161
+ADC_SAMPLE_TIME_27::0xFBFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	162;"	d	line:162
+ADC_SAMPLE_TIME_28::0xFCFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	163;"	d	line:163
+ADC_SAMPLE_TIME_29::0xFDFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	164;"	d	line:164
+ADC_SAMPLE_TIME_2::0xE2FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	137;"	d	line:137
+ADC_SAMPLE_TIME_30::0xFEFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	165;"	d	line:165
+ADC_SAMPLE_TIME_31::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	166;"	d	line:166
+ADC_SAMPLE_TIME_3::0xE3FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	138;"	d	line:138
+ADC_SAMPLE_TIME_4::0xE4FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	139;"	d	line:139
+ADC_SAMPLE_TIME_5::0xE5FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	140;"	d	line:140
+ADC_SAMPLE_TIME_6::0xE6FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	141;"	d	line:141
+ADC_SAMPLE_TIME_7::0xE7FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	142;"	d	line:142
+ADC_SAMPLE_TIME_8::0xE8FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	143;"	d	line:143
+ADC_SAMPLE_TIME_9::0xE9FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	144;"	d	line:144
+ADC_SAMP_OFF::0xFFFD	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	73;"	d	line:73
+ADC_SAMP_ON::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	71;"	d	line:71
+ADC_SCAN_OFF::0xEBFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	89;"	d	line:89
+ADC_SCAN_ON::0xEFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	87;"	d	line:87
+ADC_VREF_AVDD_AVSS::0x0FFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	78;"	d	line:78
+ADC_VREF_AVDD_EXT::0x4FFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	82;"	d	line:82
+ADC_VREF_EXT_AVSS::0x2FFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	80;"	d	line:80
+ADC_VREF_EXT_EXT::0x6FFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	84;"	d	line:84
+ADC_init	C:\Users\Public\Documents\TEMP\ADC\adc_test.c	28;"	f	line:28	signature:(void)
+ADD10	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	717;"	m	line:717	struct:tagI2CSTATBITS
+ADDEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	773;"	m	line:773	struct:tagUxSTABITS
+ADDRERR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	237;"	m	line:237	struct:tagINTCON1BITS
+ADIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	315;"	m	line:315	struct:tagIEC0BITS
+ADIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	274;"	m	line:274	struct:tagIFS0BITS
+ADIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	379;"	m	line:379	struct:tagIPC2BITS
+ADON	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	920;"	m	line:920	struct:tagADCON1BITS
+ADPCFGBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	974;"	t	line:974
+ADPCFG_VALUE::0x0000	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	32;"	d	line:32
+ADRC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	944;"	m	line:944	struct:tagADCON3BITS
+ADSIDL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	918;"	m	line:918	struct:tagADCON1BITS
+ALTIO	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	759;"	m	line:759	struct:tagUxMODEBITS
+ALTIVT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	256;"	m	line:256	struct:tagINTCON2BITS
+ALTS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	927;"	m	line:927	struct:tagADCON2BITS
+ASAM	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	913;"	m	line:913	struct:tagADCON1BITS
+BCL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	719;"	m	line:719	struct:tagI2CSTATBITS
+BGST	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1114;"	m	line:1114	struct:tagRCONBITS
+BOR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1105;"	m	line:1105	struct:tagRCONBITS
+BORV_20::0xFFFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1631;"	d	line:1631
+BORV_27::0xFFEF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1632;"	d	line:1632
+BORV_42::0xFFDF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1633;"	d	line:1633
+BORV_45::0xFFCF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1634;"	d	line:1634
+BREN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	215;"	m	line:215	struct:tagXBREVBITS
+BUFM	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	928;"	m	line:928	struct:tagADCON2BITS
+BUFS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	931;"	m	line:931	struct:tagADCON2BITS
+BWM	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	192;"	m	line:192	struct:tagMODCONBITS
+BusyADC12	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	366;"	p	line:366	signature:(void)
+C	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	152;"	m	line:152	struct:tagSRBITS
+CF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1126;"	m	line:1126	struct:tagOSCCONBITS
+CH0NA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	954;"	m	line:954	struct:tagADCHSBITS
+CH0NB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	957;"	m	line:957	struct:tagADCHSBITS
+CH0SA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	953;"	m	line:953	struct:tagADCHSBITS
+CH0SB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	956;"	m	line:956	struct:tagADCHSBITS
+CKE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	864;"	m	line:864	struct:tagSPIxCONBITS
+CKP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	862;"	m	line:862	struct:tagSPIxCONBITS
+CN0IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	446;"	m	line:446	struct:tagCNEN1BITS
+CN0PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	461;"	m	line:461	struct:tagCNPU1BITS
+CN1IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	447;"	m	line:447	struct:tagCNEN1BITS
+CN1PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	462;"	m	line:462	struct:tagCNPU1BITS
+CN2IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	448;"	m	line:448	struct:tagCNEN1BITS
+CN2PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	463;"	m	line:463	struct:tagCNPU1BITS
+CN3IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	449;"	m	line:449	struct:tagCNEN1BITS
+CN3PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	464;"	m	line:464	struct:tagCNPU1BITS
+CN4IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	450;"	m	line:450	struct:tagCNEN1BITS
+CN4PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	465;"	m	line:465	struct:tagCNPU1BITS
+CN5IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	451;"	m	line:451	struct:tagCNEN1BITS
+CN5PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	466;"	m	line:466	struct:tagCNPU1BITS
+CN6IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	452;"	m	line:452	struct:tagCNEN1BITS
+CN6PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	467;"	m	line:467	struct:tagCNPU1BITS
+CN7IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	453;"	m	line:453	struct:tagCNEN1BITS
+CN7PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	468;"	m	line:468	struct:tagCNPU1BITS
+CNEN1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	455;"	t	line:455
+CNIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	319;"	m	line:319	struct:tagIEC0BITS
+CNIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	278;"	m	line:278	struct:tagIFS0BITS
+CNIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	393;"	m	line:393	struct:tagIPC3BITS
+CNPU1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	470;"	t	line:470
+CODE_PROT_OFF	C:\Users\Public\Documents\TEMP\ADC\adc_test.c	18;"	v	line:18
+CODE_PROT_OFF::0xFFFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1644;"	d	line:1644
+CODE_PROT_ON::0xFFF9	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1645;"	d	line:1645
+CORCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	184;"	t	line:184
+COSC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1132;"	m	line:1132	struct:tagOSCCONBITS
+COVTE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	240;"	m	line:240	struct:tagINTCON1BITS
+CSCNA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	933;"	m	line:933	struct:tagADCON2BITS
+CSSL0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	980;"	m	line:980	struct:tagADCSSLBITS
+CSSL1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	981;"	m	line:981	struct:tagADCSSLBITS
+CSSL2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	982;"	m	line:982	struct:tagADCSSLBITS
+CSSL3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	983;"	m	line:983	struct:tagADCSSLBITS
+CSSL4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	984;"	m	line:984	struct:tagADCSSLBITS
+CSSL5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	985;"	m	line:985	struct:tagADCSSLBITS
+CSSL6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	986;"	m	line:986	struct:tagADCSSLBITS
+CSSL7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	987;"	m	line:987	struct:tagADCSSLBITS
+CSW_FSCM_OFF::0xFFFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1568;"	d	line:1568
+CSW_FSCM_ON::0x3FFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1570;"	d	line:1570
+CSW_ON_FSCM_OFF::0x7FFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1569;"	d	line:1569
+CloseADC12	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	364;"	p	line:364	signature:(void)
+ClrWdt::{__asm__volatile("clrwdt");}	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	2144;"	d	line:2144
+ConfigIntADC12	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	368;"	p	line:368	signature:(unsigned int)
+ConvertADC12	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	358;"	p	line:358	signature:(void)
+DA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	159;"	m	line:159	struct:tagSRBITS
+DC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	158;"	m	line:158	struct:tagSRBITS
+DISI	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	255;"	m	line:255	struct:tagINTCON2BITS
+DISICNT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	222;"	m	line:222	struct:tagDISICNTBITS
+DISICNTBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	224;"	t	line:224
+DISSDO	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	867;"	m	line:867	struct:tagSPIxCONBITS
+DISSLW	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	696;"	m	line:696	struct:tagI2CCONBITS
+DL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	180;"	m	line:180	struct:tagCORCONBITS
+DONE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	911;"	m	line:911	struct:tagADCON1BITS
+D_A	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	714;"	m	line:714	struct:tagI2CSTATBITS
+DisableIntADC::IEC0bits.ADIE=0	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	348;"	d	line:348
+EC::0xFBEB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1593;"	d	line:1593
+ECIO::0xFBEC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1590;"	d	line:1590
+ECIO_PLL16::0xFFEF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1577;"	d	line:1577
+ECIO_PLL4::0xFFED	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1575;"	d	line:1575
+ECIO_PLL8::0xFFEE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1576;"	d	line:1576
+EDT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	181;"	m	line:181	struct:tagCORCONBITS
+ENABLE_ALL_ANA::0x0000	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	328;"	d	line:328
+ENABLE_ALL_DIG::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	329;"	d	line:329
+ENABLE_AN0_ANA::0xFFFE	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	311;"	d	line:311
+ENABLE_AN10_ANA::0xFBFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	321;"	d	line:321
+ENABLE_AN11_ANA::0xF7FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	322;"	d	line:322
+ENABLE_AN12_ANA::0xEFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	323;"	d	line:323
+ENABLE_AN13_ANA::0xDFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	324;"	d	line:324
+ENABLE_AN14_ANA::0xBFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	325;"	d	line:325
+ENABLE_AN15_ANA::0x7FFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	326;"	d	line:326
+ENABLE_AN1_ANA::0xFFFD	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	312;"	d	line:312
+ENABLE_AN2_ANA::0xFFFB	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	313;"	d	line:313
+ENABLE_AN3_ANA::0xFFF7	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	314;"	d	line:314
+ENABLE_AN4_ANA::0xFFEF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	315;"	d	line:315
+ENABLE_AN5_ANA::0xFFDF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	316;"	d	line:316
+ENABLE_AN6_ANA::0xFFBF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	317;"	d	line:317
+ENABLE_AN7_ANA::0xFF7F	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	318;"	d	line:318
+ENABLE_AN8_ANA::0xFEFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	319;"	d	line:319
+ENABLE_AN9_ANA::0xFDFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	320;"	d	line:320
+ERC::0xFBE9	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1594;"	d	line:1594
+ERCIO::0xFBE8	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1595;"	d	line:1595
+EXT::0xFBFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1574;"	d	line:1574
+EXTR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1111;"	m	line:1111	struct:tagRCONBITS
+EnableIntADC::IEC0bits.ADIE=1	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	347;"	d	line:347
+FERR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	770;"	m	line:770	struct:tagUxSTABITS
+FORM	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	916;"	m	line:916	struct:tagADCON1BITS
+FRC	C:\Users\Public\Documents\TEMP\ADC\adc_test.c	15;"	v	line:15
+FRC::0xF9FF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1572;"	d	line:1572
+FRC_PLL16::0xFFE3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1580;"	d	line:1580
+FRC_PLL4::0xFFE1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1578;"	d	line:1578
+FRC_PLL8::0xFFEA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1579;"	d	line:1579
+FRMEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	870;"	m	line:870	struct:tagSPIxCONBITS
+GCEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	694;"	m	line:694	struct:tagI2CCONBITS
+GCSTAT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	718;"	m	line:718	struct:tagI2CSTATBITS
+GWRP_OFF::0xFFFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1646;"	d	line:1646
+GWRP_ON::0xFFFE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1647;"	d	line:1647
+H	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	91;"	m	line:91	struct:tagACC
+HS2_PLL16::0xFFF3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1586;"	d	line:1586
+HS2_PLL4::0xFFF1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1584;"	d	line:1584
+HS2_PLL8::0xFFF2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1585;"	d	line:1585
+HS3_PLL16::0xFFF7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1589;"	d	line:1589
+HS3_PLL4::0xFFF5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1587;"	d	line:1587
+HS3_PLL8::0xFFF6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1588;"	d	line:1588
+HS::0xFBE2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1592;"	d	line:1592
+I2CADD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	729;"	m	line:729	struct:tagI2CADDBITS
+I2CADDBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	731;"	t	line:731
+I2CBRG	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	679;"	m	line:679	struct:tagI2CBRGBITS
+I2CBRGBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	681;"	t	line:681
+I2CCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	703;"	t	line:703
+I2CEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	702;"	m	line:702	struct:tagI2CCONBITS
+I2CMD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1189;"	m	line:1189	struct:tagPMD1BITS
+I2COV	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	715;"	m	line:715	struct:tagI2CSTATBITS
+I2CRCV0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	651;"	m	line:651	struct:tagI2CRCVBITS
+I2CRCV1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	652;"	m	line:652	struct:tagI2CRCVBITS
+I2CRCV2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	653;"	m	line:653	struct:tagI2CRCVBITS
+I2CRCV3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	654;"	m	line:654	struct:tagI2CRCVBITS
+I2CRCV4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	655;"	m	line:655	struct:tagI2CRCVBITS
+I2CRCV5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	656;"	m	line:656	struct:tagI2CRCVBITS
+I2CRCV6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	657;"	m	line:657	struct:tagI2CRCVBITS
+I2CRCV7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	658;"	m	line:658	struct:tagI2CRCVBITS
+I2CRCVBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	659;"	t	line:659
+I2CSIDL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	700;"	m	line:700	struct:tagI2CCONBITS
+I2CSTATBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	723;"	t	line:723
+I2CTRN0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	665;"	m	line:665	struct:tagI2CTRNBITS
+I2CTRN1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	666;"	m	line:666	struct:tagI2CTRNBITS
+I2CTRN2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	667;"	m	line:667	struct:tagI2CTRNBITS
+I2CTRN3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	668;"	m	line:668	struct:tagI2CTRNBITS
+I2CTRN4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	669;"	m	line:669	struct:tagI2CTRNBITS
+I2CTRN5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	670;"	m	line:670	struct:tagI2CTRNBITS
+I2CTRN6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	671;"	m	line:671	struct:tagI2CTRNBITS
+I2CTRN7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	672;"	m	line:672	struct:tagI2CTRNBITS
+I2CTRNBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	673;"	t	line:673
+IC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	565;"	t	line:565
+IC1IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	305;"	m	line:305	struct:tagIEC0BITS
+IC1IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	264;"	m	line:264	struct:tagIFS0BITS
+IC1IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	347;"	m	line:347	struct:tagIPC0BITS
+IC1MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1204;"	m	line:1204	struct:tagPMD2BITS
+IC2IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	308;"	m	line:308	struct:tagIEC0BITS
+IC2IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	267;"	m	line:267	struct:tagIFS0BITS
+IC2IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	359;"	m	line:359	struct:tagIPC1BITS
+IC2MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1205;"	m	line:1205	struct:tagPMD2BITS
+ICBNE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	574;"	m	line:574	struct:tagICxCONBITS
+ICI	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	576;"	m	line:576	struct:tagICxCONBITS
+ICM	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	573;"	m	line:573	struct:tagICxCONBITS
+ICOV	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	575;"	m	line:575	struct:tagICxCONBITS
+ICSIDL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	579;"	m	line:579	struct:tagICxCONBITS
+ICS_PGD1::0xFFFE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1654;"	d	line:1654
+ICS_PGD2::0xFFFD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1653;"	d	line:1653
+ICS_PGD3::0xFFFC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1652;"	d	line:1652
+ICS_PGD::0xFFFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1655;"	d	line:1655
+ICTMR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	577;"	m	line:577	struct:tagICxCONBITS
+ICxCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	581;"	t	line:581
+IDLE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1106;"	m	line:1106	struct:tagRCONBITS
+IEC0BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	320;"	t	line:320
+IEC1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	330;"	t	line:330
+IEC2BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	339;"	t	line:339
+IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	172;"	m	line:172	struct:tagCORCONBITS
+IFS0BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	279;"	t	line:279
+IFS1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	289;"	t	line:289
+IFS2BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	298;"	t	line:298
+ILR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	429;"	m	line:429	struct:tagINTTREGBITS
+INT0EP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	251;"	m	line:251	struct:tagINTCON2BITS
+INT0IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	304;"	m	line:304	struct:tagIEC0BITS
+INT0IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	263;"	m	line:263	struct:tagIFS0BITS
+INT0IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	345;"	m	line:345	struct:tagIPC0BITS
+INT1EP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	252;"	m	line:252	struct:tagINTCON2BITS
+INT1IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	326;"	m	line:326	struct:tagIEC1BITS
+INT1IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	285;"	m	line:285	struct:tagIFS1BITS
+INT1IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	401;"	m	line:401	struct:tagIPC4BITS
+INT2EP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	253;"	m	line:253	struct:tagINTCON2BITS
+INT2IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	328;"	m	line:328	struct:tagIEC1BITS
+INT2IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	287;"	m	line:287	struct:tagIFS1BITS
+INT2IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	410;"	m	line:410	struct:tagIPC5BITS
+INTCON1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	245;"	t	line:245
+INTCON2BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	257;"	t	line:257
+INTTREGBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	434;"	t	line:434
+IOPUWR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1115;"	m	line:1115	struct:tagRCONBITS
+IPC0BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	353;"	t	line:353
+IPC10BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	421;"	t	line:421
+IPC1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	367;"	t	line:367
+IPC2BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	381;"	t	line:381
+IPC3BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	395;"	t	line:395
+IPC4BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	403;"	t	line:403
+IPC5BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	412;"	t	line:412
+IPL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	157;"	m	line:157	struct:tagSRBITS
+IPL3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	175;"	m	line:175	struct:tagCORCONBITS
+IPMIEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	698;"	m	line:698	struct:tagI2CCONBITS
+IRQTOCPU	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	433;"	m	line:433	struct:tagINTTREGBITS
+IWCOL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	716;"	m	line:716	struct:tagI2CSTATBITS
+Idle::{__asm__volatile("pwrsav#1");}	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	2146;"	d	line:2146
+L	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	90;"	m	line:90	struct:tagACC
+LATB0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1030;"	m	line:1030	struct:tagLATBBITS
+LATB1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1031;"	m	line:1031	struct:tagLATBBITS
+LATB2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1032;"	m	line:1032	struct:tagLATBBITS
+LATB3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1033;"	m	line:1033	struct:tagLATBBITS
+LATB4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1034;"	m	line:1034	struct:tagLATBBITS
+LATB5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1035;"	m	line:1035	struct:tagLATBBITS
+LATB6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1036;"	m	line:1036	struct:tagLATBBITS
+LATB7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1037;"	m	line:1037	struct:tagLATBBITS
+LATBBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1039;"	t	line:1039
+LATC13	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1066;"	m	line:1066	struct:tagLATCBITS
+LATC14	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1067;"	m	line:1067	struct:tagLATCBITS
+LATC15	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1068;"	m	line:1068	struct:tagLATCBITS
+LATCBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1069;"	t	line:1069
+LATD0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1091;"	m	line:1091	struct:tagLATDBITS
+LATDBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1093;"	t	line:1093
+LOCK	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1128;"	m	line:1128	struct:tagOSCCONBITS
+LP::0xF8FF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1571;"	d	line:1571
+LPBACK	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	756;"	m	line:756	struct:tagUxMODEBITS
+LPOSCEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1124;"	m	line:1124	struct:tagOSCCONBITS
+LPRC::0xFAFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1573;"	d	line:1573
+LVDEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1113;"	m	line:1113	struct:tagRCONBITS
+LVDIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	337;"	m	line:337	struct:tagIEC2BITS
+LVDIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	296;"	m	line:296	struct:tagIFS2BITS
+LVDIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	419;"	m	line:419	struct:tagIPC10BITS
+LVDL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1112;"	m	line:1112	struct:tagRCONBITS
+MATHERR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	238;"	m	line:238	struct:tagINTCON1BITS
+MCLR_DIS::0x7FFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1628;"	d	line:1628
+MCLR_EN::0xFFFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1627;"	d	line:1627
+MI2CIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	318;"	m	line:318	struct:tagIEC0BITS
+MI2CIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	277;"	m	line:277	struct:tagIFS0BITS
+MI2CIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	391;"	m	line:391	struct:tagIPC3BITS
+MODCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	196;"	t	line:196
+MODE16	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	866;"	m	line:866	struct:tagSPIxCONBITS
+MSTEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	861;"	m	line:861	struct:tagSPIxCONBITS
+N	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	155;"	m	line:155	struct:tagSRBITS
+NOSC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1130;"	m	line:1130	struct:tagOSCCONBITS
+NSTDIS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	244;"	m	line:244	struct:tagINTCON1BITS
+NVMCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1163;"	t	line:1163
+NVMIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	316;"	m	line:316	struct:tagIEC0BITS
+NVMIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	275;"	m	line:275	struct:tagIFS0BITS
+NVMIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	387;"	m	line:387	struct:tagIPC3BITS
+Nop::__builtin_nop	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	2143;"	d	line:2143
+OA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	165;"	m	line:165	struct:tagSRBITS
+OAB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	161;"	m	line:161	struct:tagSRBITS
+OB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	164;"	m	line:164	struct:tagSRBITS
+OC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	607;"	t	line:607
+OC1IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	306;"	m	line:306	struct:tagIEC0BITS
+OC1IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	265;"	m	line:265	struct:tagIFS0BITS
+OC1IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	349;"	m	line:349	struct:tagIPC0BITS
+OC1MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1201;"	m	line:1201	struct:tagPMD2BITS
+OC2IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	309;"	m	line:309	struct:tagIEC0BITS
+OC2IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	268;"	m	line:268	struct:tagIFS0BITS
+OC2IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	361;"	m	line:361	struct:tagIPC1BITS
+OC2MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1202;"	m	line:1202	struct:tagPMD2BITS
+OCFLT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	617;"	m	line:617	struct:tagOCxCONBITS
+OCM	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	615;"	m	line:615	struct:tagOCxCONBITS
+OCSIDL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	619;"	m	line:619	struct:tagOCxCONBITS
+OCTSEL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	616;"	m	line:616	struct:tagOCxCONBITS
+OCxCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	621;"	t	line:621
+OERR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	769;"	m	line:769	struct:tagUxSTABITS
+OSCCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1134;"	t	line:1134
+OSCFAIL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	235;"	m	line:235	struct:tagINTCON1BITS
+OSCTUNBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1145;"	t	line:1145
+OSWEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1123;"	m	line:1123	struct:tagOSCCONBITS
+OV	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	154;"	m	line:154	struct:tagSRBITS
+OVATE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	242;"	m	line:242	struct:tagINTCON1BITS
+OVBTE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	241;"	m	line:241	struct:tagINTCON1BITS
+OpenADC12	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	355;"	p	line:355	signature:(unsigned int, unsigned int, unsigned int,unsigned int,unsigned int)
+P	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	713;"	m	line:713	struct:tagI2CSTATBITS
+PBOR_OFF::0xFF7F	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1630;"	d	line:1630
+PBOR_ON::0xFFFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1629;"	d	line:1629
+PCFG0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	965;"	m	line:965	struct:tagADPCFGBITS
+PCFG1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	966;"	m	line:966	struct:tagADPCFGBITS
+PCFG2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	967;"	m	line:967	struct:tagADPCFGBITS
+PCFG3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	968;"	m	line:968	struct:tagADPCFGBITS
+PCFG4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	969;"	m	line:969	struct:tagADPCFGBITS
+PCFG5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	970;"	m	line:970	struct:tagADPCFGBITS
+PCFG6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	971;"	m	line:971	struct:tagADPCFGBITS
+PCFG7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	972;"	m	line:972	struct:tagADPCFGBITS
+PDSEL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	753;"	m	line:753	struct:tagUxMODEBITS
+PEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	689;"	m	line:689	struct:tagI2CCONBITS
+PERR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	771;"	m	line:771	struct:tagUxSTABITS
+PIC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	565;"	t	line:565
+PMD1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1195;"	t	line:1195
+PMD2BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1207;"	t	line:1207
+POC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	607;"	t	line:607
+POR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1104;"	m	line:1104	struct:tagRCONBITS
+PORTBBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1024;"	t	line:1024
+PORTCBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1059;"	t	line:1059
+PORTDBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1085;"	t	line:1085
+POST	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1129;"	m	line:1129	struct:tagOSCCONBITS
+PPRE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	859;"	m	line:859	struct:tagSPIxCONBITS
+PROGOP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1156;"	m	line:1156	struct:tagNVMCONBITS
+PSPI	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	840;"	t	line:840
+PSV	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	174;"	m	line:174	struct:tagCORCONBITS
+PUART	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	745;"	t	line:745
+PWRT_16::0xFFFE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1637;"	d	line:1637
+PWRT_4::0xFFFD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1636;"	d	line:1636
+PWRT_64::0xFFFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1638;"	d	line:1638
+PWRT_OFF	C:\Users\Public\Documents\TEMP\ADC\adc_test.c	17;"	v	line:17
+PWRT_OFF::0xFFFC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1635;"	d	line:1635
+RA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	156;"	m	line:156	struct:tagSRBITS
+RB0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1015;"	m	line:1015	struct:tagPORTBBITS
+RB1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1016;"	m	line:1016	struct:tagPORTBBITS
+RB2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1017;"	m	line:1017	struct:tagPORTBBITS
+RB3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1018;"	m	line:1018	struct:tagPORTBBITS
+RB4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1019;"	m	line:1019	struct:tagPORTBBITS
+RB5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1020;"	m	line:1020	struct:tagPORTBBITS
+RB6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1021;"	m	line:1021	struct:tagPORTBBITS
+RB7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1022;"	m	line:1022	struct:tagPORTBBITS
+RBF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	710;"	m	line:710	struct:tagI2CSTATBITS
+RC13	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1056;"	m	line:1056	struct:tagPORTCBITS
+RC14	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1057;"	m	line:1057	struct:tagPORTCBITS
+RC15	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1058;"	m	line:1058	struct:tagPORTCBITS
+RCEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	690;"	m	line:690	struct:tagI2CCONBITS
+RCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1117;"	t	line:1117
+RD0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1083;"	m	line:1083	struct:tagPORTDBITS
+RESTORE_CPU_IPL::(saved_to)SET_CPU_IPL(saved_to	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	2234;"	d	line:2234
+RIDLE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	772;"	m	line:772	struct:tagUxSTABITS
+RND	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	173;"	m	line:173	struct:tagCORCONBITS
+RSEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	688;"	m	line:688	struct:tagI2CCONBITS
+R_W	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	711;"	m	line:711	struct:tagI2CSTATBITS
+ReadADC12	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	362;"	p	line:362	signature:(unsigned char)
+S	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	712;"	m	line:712	struct:tagI2CSTATBITS
+SA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	163;"	m	line:163	struct:tagSRBITS
+SAB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	160;"	m	line:160	struct:tagSRBITS
+SAMC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	945;"	m	line:945	struct:tagADCON3BITS
+SAMP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	912;"	m	line:912	struct:tagADCON1BITS
+SATA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	179;"	m	line:179	struct:tagCORCONBITS
+SATB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	178;"	m	line:178	struct:tagCORCONBITS
+SATDW	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	177;"	m	line:177	struct:tagCORCONBITS
+SB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	162;"	m	line:162	struct:tagSRBITS
+SCAN_ALL::0xFFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	307;"	d	line:307
+SCAN_NONE::0x0000	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	306;"	d	line:306
+SCLREL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	699;"	m	line:699	struct:tagI2CCONBITS
+SEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	687;"	m	line:687	struct:tagI2CCONBITS
+SET_AND_SAVE_CPU_IPL::(save_to,ipl){	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	2232;"	d	line:2232
+SET_CPU_IPL::(ipl){	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	2228;"	d	line:2228
+SI2CIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	317;"	m	line:317	struct:tagIEC0BITS
+SI2CIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	276;"	m	line:276	struct:tagIFS0BITS
+SI2CIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	389;"	m	line:389	struct:tagIPC3BITS
+SKIP_SCAN_AN0::0xFFFE	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	289;"	d	line:289
+SKIP_SCAN_AN10::0xFBFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	299;"	d	line:299
+SKIP_SCAN_AN11::0xF7FF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	300;"	d	line:300
+SKIP_SCAN_AN12::0xEFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	301;"	d	line:301
+SKIP_SCAN_AN13::0xDFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	302;"	d	line:302
+SKIP_SCAN_AN14::0xBFFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	303;"	d	line:303
+SKIP_SCAN_AN15::0x7FFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	304;"	d	line:304
+SKIP_SCAN_AN1::0xFFFD	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	290;"	d	line:290
+SKIP_SCAN_AN2::0xFFFB	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	291;"	d	line:291
+SKIP_SCAN_AN3::0xFFF7	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	292;"	d	line:292
+SKIP_SCAN_AN4::0xFFEF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	293;"	d	line:293
+SKIP_SCAN_AN5::0xFFDF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	294;"	d	line:294
+SKIP_SCAN_AN6::0xFFBF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	295;"	d	line:295
+SKIP_SCAN_AN7::0xFF7F	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	296;"	d	line:296
+SKIP_SCAN_AN8::0xFEFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	297;"	d	line:297
+SKIP_SCAN_AN9::0xFDFF	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	298;"	d	line:298
+SLEEP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1107;"	m	line:1107	struct:tagRCONBITS
+SMEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	695;"	m	line:695	struct:tagI2CCONBITS
+SMP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	865;"	m	line:865	struct:tagSPIxCONBITS
+SMPI	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	929;"	m	line:929	struct:tagADCON2BITS
+SPI	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	840;"	t	line:840
+SPI1IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	312;"	m	line:312	struct:tagIEC0BITS
+SPI1IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	271;"	m	line:271	struct:tagIFS0BITS
+SPI1IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	373;"	m	line:373	struct:tagIPC2BITS
+SPI1MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1185;"	m	line:1185	struct:tagPMD1BITS
+SPIEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	854;"	m	line:854	struct:tagSPIxSTATBITS
+SPIFSD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	869;"	m	line:869	struct:tagSPIxCONBITS
+SPIRBF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	847;"	m	line:847	struct:tagSPIxSTATBITS
+SPIROV	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	850;"	m	line:850	struct:tagSPIxSTATBITS
+SPISIDL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	852;"	m	line:852	struct:tagSPIxSTATBITS
+SPITBF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	848;"	m	line:848	struct:tagSPIxSTATBITS
+SPIxCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	872;"	t	line:872
+SPIxSTATBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	855;"	t	line:855
+SPRE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	860;"	m	line:860	struct:tagSPIxCONBITS
+SRBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	166;"	t	line:166
+SSEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	863;"	m	line:863	struct:tagSPIxCONBITS
+SSRC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	915;"	m	line:915	struct:tagADCON1BITS
+STKERR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	236;"	m	line:236	struct:tagINTCON1BITS
+STREN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	693;"	m	line:693	struct:tagI2CCONBITS
+STSEL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	752;"	m	line:752	struct:tagUxMODEBITS
+SWDTEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1109;"	m	line:1109	struct:tagRCONBITS
+SWR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1110;"	m	line:1110	struct:tagRCONBITS
+SetChanADC12	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	360;"	p	line:360	signature:(unsigned int)
+SetPriorityIntADC::(priority)IPC2bits.ADIP=(prior	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	349;"	d	line:349
+Sleep::{__asm__volatile("pwrsav#0");}	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	2145;"	d	line:2145
+StopSampADC12::ConvertADC12	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	353;"	d	line:353
+T1IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	307;"	m	line:307	struct:tagIEC0BITS
+T1IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	266;"	m	line:266	struct:tagIFS0BITS
+T1IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	351;"	m	line:351	struct:tagIPC0BITS
+T1MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1191;"	m	line:1191	struct:tagPMD1BITS
+T2IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	310;"	m	line:310	struct:tagIEC0BITS
+T2IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	269;"	m	line:269	struct:tagIFS0BITS
+T2IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	363;"	m	line:363	struct:tagIPC1BITS
+T2MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1192;"	m	line:1192	struct:tagPMD1BITS
+T32	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	511;"	m	line:511	struct:tagTCON_EVEN
+T3IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	311;"	m	line:311	struct:tagIEC0BITS
+T3IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	270;"	m	line:270	struct:tagIFS0BITS
+T3IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	365;"	m	line:365	struct:tagIPC1BITS
+T3MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1193;"	m	line:1193	struct:tagPMD1BITS
+TBF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	709;"	m	line:709	struct:tagI2CSTATBITS
+TCKPS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	484;"	m	line:484	struct:tagTCON_16BIT
+TCKPS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	512;"	m	line:512	struct:tagTCON_EVEN
+TCKPS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	525;"	m	line:525	struct:tagTCON_ODD
+TCON_16BIT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	490;"	t	line:490
+TCON_EVEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	518;"	t	line:518
+TCON_ODD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	531;"	t	line:531
+TCS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	481;"	m	line:481	struct:tagTCON_16BIT
+TCS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	509;"	m	line:509	struct:tagTCON_EVEN
+TCS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	523;"	m	line:523	struct:tagTCON_ODD
+TGATE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	485;"	m	line:485	struct:tagTCON_16BIT
+TGATE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	513;"	m	line:513	struct:tagTCON_EVEN
+TGATE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	526;"	m	line:526	struct:tagTCON_ODD
+TMODE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	432;"	m	line:432	struct:tagINTTREGBITS
+TON	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	489;"	m	line:489	struct:tagTCON_16BIT
+TON	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	517;"	m	line:517	struct:tagTCON_EVEN
+TON	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	530;"	m	line:530	struct:tagTCON_ODD
+TRAPR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1116;"	m	line:1116	struct:tagRCONBITS
+TRISB0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1000;"	m	line:1000	struct:tagTRISBBITS
+TRISB1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1001;"	m	line:1001	struct:tagTRISBBITS
+TRISB2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1002;"	m	line:1002	struct:tagTRISBBITS
+TRISB3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1003;"	m	line:1003	struct:tagTRISBBITS
+TRISB4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1004;"	m	line:1004	struct:tagTRISBBITS
+TRISB5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1005;"	m	line:1005	struct:tagTRISBBITS
+TRISB6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1006;"	m	line:1006	struct:tagTRISBBITS
+TRISB7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1007;"	m	line:1007	struct:tagTRISBBITS
+TRISBBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1009;"	t	line:1009
+TRISC13	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1046;"	m	line:1046	struct:tagTRISCBITS
+TRISC14	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1047;"	m	line:1047	struct:tagTRISCBITS
+TRISC15	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1048;"	m	line:1048	struct:tagTRISCBITS
+TRISCBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1049;"	t	line:1049
+TRISD0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1075;"	m	line:1075	struct:tagTRISDBITS
+TRISDBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1077;"	t	line:1077
+TRMT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	775;"	m	line:775	struct:tagUxSTABITS
+TRSTAT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	721;"	m	line:721	struct:tagI2CSTATBITS
+TSIDL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	487;"	m	line:487	struct:tagTCON_16BIT
+TSIDL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	515;"	m	line:515	struct:tagTCON_EVEN
+TSIDL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	528;"	m	line:528	struct:tagTCON_ODD
+TSYNC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	482;"	m	line:482	struct:tagTCON_16BIT
+TUN0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1140;"	m	line:1140	struct:tagOSCTUNBITS
+TUN1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1141;"	m	line:1141	struct:tagOSCTUNBITS
+TUN2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1142;"	m	line:1142	struct:tagOSCTUNBITS
+TUN3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1143;"	m	line:1143	struct:tagOSCTUNBITS
+TWRI	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1158;"	m	line:1158	struct:tagNVMCONBITS
+U	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	92;"	m	line:92	struct:tagACC
+U1MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1187;"	m	line:1187	struct:tagPMD1BITS
+U1RXIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	313;"	m	line:313	struct:tagIEC0BITS
+U1RXIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	272;"	m	line:272	struct:tagIFS0BITS
+U1RXIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	375;"	m	line:375	struct:tagIPC2BITS
+U1TXIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	314;"	m	line:314	struct:tagIEC0BITS
+U1TXIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	273;"	m	line:273	struct:tagIFS0BITS
+U1TXIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	377;"	m	line:377	struct:tagIPC2BITS
+UART	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	745;"	t	line:745
+UARTEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	763;"	m	line:763	struct:tagUxMODEBITS
+URX8	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	807;"	m	line:807	struct:tagUxRXREGBITS
+URXDA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	768;"	m	line:768	struct:tagUxSTABITS
+URXISEL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	774;"	m	line:774	struct:tagUxSTABITS
+URXREG0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	799;"	m	line:799	struct:tagUxRXREGBITS
+URXREG1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	800;"	m	line:800	struct:tagUxRXREGBITS
+URXREG2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	801;"	m	line:801	struct:tagUxRXREGBITS
+URXREG3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	802;"	m	line:802	struct:tagUxRXREGBITS
+URXREG4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	803;"	m	line:803	struct:tagUxRXREGBITS
+URXREG5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	804;"	m	line:804	struct:tagUxRXREGBITS
+URXREG6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	805;"	m	line:805	struct:tagUxRXREGBITS
+URXREG7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	806;"	m	line:806	struct:tagUxRXREGBITS
+US	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	182;"	m	line:182	struct:tagCORCONBITS
+USIDL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	761;"	m	line:761	struct:tagUxMODEBITS
+UTX8	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	793;"	m	line:793	struct:tagUxTXREGBITS
+UTXBF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	776;"	m	line:776	struct:tagUxSTABITS
+UTXBRK	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	778;"	m	line:778	struct:tagUxSTABITS
+UTXEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	777;"	m	line:777	struct:tagUxSTABITS
+UTXISEL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	780;"	m	line:780	struct:tagUxSTABITS
+UTXREG0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	785;"	m	line:785	struct:tagUxTXREGBITS
+UTXREG1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	786;"	m	line:786	struct:tagUxTXREGBITS
+UTXREG2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	787;"	m	line:787	struct:tagUxTXREGBITS
+UTXREG3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	788;"	m	line:788	struct:tagUxTXREGBITS
+UTXREG4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	789;"	m	line:789	struct:tagUxTXREGBITS
+UTXREG5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	790;"	m	line:790	struct:tagUxTXREGBITS
+UTXREG6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	791;"	m	line:791	struct:tagUxTXREGBITS
+UTXREG7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	792;"	m	line:792	struct:tagUxTXREGBITS
+UxMODEBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	764;"	t	line:764
+UxRXREGBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	809;"	t	line:809
+UxSTABITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	781;"	t	line:781
+UxTXREGBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	795;"	t	line:795
+VCFG	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	935;"	m	line:935	struct:tagADCON2BITS
+VECNUM	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	427;"	m	line:427	struct:tagINTTREGBITS
+VHOLD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	431;"	m	line:431	struct:tagINTTREGBITS
+WAKE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	757;"	m	line:757	struct:tagUxMODEBITS
+WDTO	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1108;"	m	line:1108	struct:tagRCONBITS
+WDTPSA_1::0xFFCF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1603;"	d	line:1603
+WDTPSA_512::0xFFFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1606;"	d	line:1606
+WDTPSA_64::0xFFEF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1605;"	d	line:1605
+WDTPSA_8::0xFFDF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1604;"	d	line:1604
+WDTPSB_10::0xFFF9	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1616;"	d	line:1616
+WDTPSB_11::0xFFFA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1617;"	d	line:1617
+WDTPSB_12::0xFFFB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1618;"	d	line:1618
+WDTPSB_13::0xFFFC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1619;"	d	line:1619
+WDTPSB_14::0xFFFD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1620;"	d	line:1620
+WDTPSB_15::0xFFFE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1621;"	d	line:1621
+WDTPSB_16::0xFFFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1622;"	d	line:1622
+WDTPSB_1::0xFFF0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1607;"	d	line:1607
+WDTPSB_2::0xFFF1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1608;"	d	line:1608
+WDTPSB_3::0xFFF2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1609;"	d	line:1609
+WDTPSB_4::0xFFF3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1610;"	d	line:1610
+WDTPSB_5::0xFFF4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1611;"	d	line:1611
+WDTPSB_6::0xFFF5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1612;"	d	line:1612
+WDTPSB_7::0xFFF6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1613;"	d	line:1613
+WDTPSB_8::0xFFF7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1614;"	d	line:1614
+WDTPSB_9::0xFFF8	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1615;"	d	line:1615
+WDT_OFF	C:\Users\Public\Documents\TEMP\ADC\adc_test.c	16;"	v	line:16
+WDT_OFF::0x7FFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1602;"	d	line:1602
+WDT_ON::0xFFFF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1601;"	d	line:1601
+WR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1162;"	m	line:1162	struct:tagNVMCONBITS
+WREN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1161;"	m	line:1161	struct:tagNVMCONBITS
+WRERR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1160;"	m	line:1160	struct:tagNVMCONBITS
+XB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	214;"	m	line:214	struct:tagXBREVBITS
+XBREVBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	216;"	t	line:216
+XMODEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	195;"	m	line:195	struct:tagMODCONBITS
+XT::0xFBE4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1591;"	d	line:1591
+XTL::0xFBE0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1596;"	d	line:1596
+XT_PLL16::0xFFE7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1583;"	d	line:1583
+XT_PLL4::0xFFE5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1581;"	d	line:1581
+XT_PLL8::0xFFE6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1582;"	d	line:1582
+XWM	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	190;"	m	line:190	struct:tagMODCONBITS
+YMODEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	194;"	m	line:194	struct:tagMODCONBITS
+YWM	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	191;"	m	line:191	struct:tagMODCONBITS
+Z	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	153;"	m	line:153	struct:tagSRBITS
+_A10M::I2CCONbits.A10M	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1386;"	d	line:1386
+_ACCSAT::CORCONbits.ACCSAT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1236;"	d	line:1236
+_ACKDT::I2CCONbits.ACKDT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1381;"	d	line:1381
+_ACKEN::I2CCONbits.ACKEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1380;"	d	line:1380
+_ACKSTAT::I2CSTATbits.ACKSTAT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1405;"	d	line:1405
+_ADCMD::PMD1bits.ADCMD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1547;"	d	line:1547
+_ADCS::ADCON3bits.ADCS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1425;"	d	line:1425
+_ADC_12BIT	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	23;"	d	line:23
+_ADD10::I2CSTATbits.ADD10	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1401;"	d	line:1401
+_ADDRERR::INTCON1bits.ADDRERR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1258;"	d	line:1258
+_ADIE::IEC0bits.ADIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1309;"	d	line:1309
+_ADIF::IFS0bits.ADIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1284;"	d	line:1284
+_ADIP::IPC2bits.ADIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1338;"	d	line:1338
+_ADON::ADCON1bits.ADON	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1414;"	d	line:1414
+_ADRC::ADCON3bits.ADRC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1426;"	d	line:1426
+_ADSIDL::ADCON1bits.ADSIDL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1413;"	d	line:1413
+_ALTIVT::INTCON2bits.ALTIVT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1270;"	d	line:1270
+_ALTS::ADCON2bits.ALTS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1417;"	d	line:1417
+_ASAM::ADCON1bits.ASAM	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1410;"	d	line:1410
+_BCL::I2CSTATbits.BCL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1403;"	d	line:1403
+_BGST::RCONbits.BGST	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1520;"	d	line:1520
+_BOR::RCONbits.BOR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1511;"	d	line:1511
+_BREN::XBREVbits.BREN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1253;"	d	line:1253
+_BUFM::ADCON2bits.BUFM	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1418;"	d	line:1418
+_BUFS::ADCON2bits.BUFS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1420;"	d	line:1420
+_BWM::MODCONbits.BWM	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1247;"	d	line:1247
+_C::SRbits.C	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1216;"	d	line:1216
+_CF::OSCCONbits.CF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1527;"	d	line:1527
+_CH0NA::ADCHSbits.CH0NA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1431;"	d	line:1431
+_CH0NB::ADCHSbits.CH0NB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1433;"	d	line:1433
+_CH0SA::ADCHSbits.CH0SA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1430;"	d	line:1430
+_CH0SB::ADCHSbits.CH0SB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1432;"	d	line:1432
+_CN0IE::CNEN1bits.CN0IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1356;"	d	line:1356
+_CN0PUE::CNPU1bits.CN0PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1366;"	d	line:1366
+_CN1IE::CNEN1bits.CN1IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1357;"	d	line:1357
+_CN1PUE::CNPU1bits.CN1PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1367;"	d	line:1367
+_CN2IE::CNEN1bits.CN2IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1358;"	d	line:1358
+_CN2PUE::CNPU1bits.CN2PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1368;"	d	line:1368
+_CN3IE::CNEN1bits.CN3IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1359;"	d	line:1359
+_CN3PUE::CNPU1bits.CN3PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1369;"	d	line:1369
+_CN4IE::CNEN1bits.CN4IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1360;"	d	line:1360
+_CN4PUE::CNPU1bits.CN4PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1370;"	d	line:1370
+_CN5IE::CNEN1bits.CN5IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1361;"	d	line:1361
+_CN5PUE::CNPU1bits.CN5PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1371;"	d	line:1371
+_CN6IE::CNEN1bits.CN6IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1362;"	d	line:1362
+_CN6PUE::CNPU1bits.CN6PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1372;"	d	line:1372
+_CN7IE::CNEN1bits.CN7IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1363;"	d	line:1363
+_CN7PUE::CNPU1bits.CN7PUE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1373;"	d	line:1373
+_CNIE::IEC0bits.CNIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1313;"	d	line:1313
+_CNIF::IFS0bits.CNIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1288;"	d	line:1288
+_CNIP::IPC3bits.CNIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1344;"	d	line:1344
+_COSC::OSCCONbits.COSC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1531;"	d	line:1531
+_COVTE::INTCON1bits.COVTE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1260;"	d	line:1260
+_CSCNA::ADCON2bits.CSCNA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1421;"	d	line:1421
+_CSSL0::ADCSSLbits.CSSL0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1446;"	d	line:1446
+_CSSL1::ADCSSLbits.CSSL1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1447;"	d	line:1447
+_CSSL2::ADCSSLbits.CSSL2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1448;"	d	line:1448
+_CSSL3::ADCSSLbits.CSSL3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1449;"	d	line:1449
+_CSSL4::ADCSSLbits.CSSL4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1450;"	d	line:1450
+_CSSL5::ADCSSLbits.CSSL5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1451;"	d	line:1451
+_CSSL6::ADCSSLbits.CSSL6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1452;"	d	line:1452
+_CSSL7::ADCSSLbits.CSSL7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1453;"	d	line:1453
+_DA::SRbits.DA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1223;"	d	line:1223
+_DC::SRbits.DC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1222;"	d	line:1222
+_DISI::INTCON2bits.DISI	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1269;"	d	line:1269
+_DISSLW::I2CCONbits.DISSLW	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1385;"	d	line:1385
+_DL::CORCONbits.DL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1240;"	d	line:1240
+_DONE::ADCON1bits.DONE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1408;"	d	line:1408
+_D_A::I2CSTATbits.D_A	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1398;"	d	line:1398
+_EDT::CORCONbits.EDT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1241;"	d	line:1241
+_EXTR::RCONbits.EXTR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1517;"	d	line:1517
+_FBORPOR::(x)__attribute__((section("__F	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1625;"	d	line:1625
+_FGS::(x)__attribute__((section("__F	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1642;"	d	line:1642
+_FICD::(x)__attribute__((section("__F	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1650;"	d	line:1650
+_FORM::ADCON1bits.FORM	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1412;"	d	line:1412
+_FOSC::(x)__attribute__((section("__F	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1566;"	d	line:1566
+_FUID0::(x)__attribute__((section("__F	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1658;"	d	line:1658
+_FUID1::(x)__attribute__((section("__F	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1659;"	d	line:1659
+_FUID2::(x)__attribute__((section("__F	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1660;"	d	line:1660
+_FUID3::(x)__attribute__((section("__F	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1661;"	d	line:1661
+_FWDT::(x)__attribute__((section("__F	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1599;"	d	line:1599
+_GCEN::I2CCONbits.GCEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1383;"	d	line:1383
+_GCSTAT::I2CSTATbits.GCSTAT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1402;"	d	line:1402
+_I2CEN::I2CCONbits.I2CEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1390;"	d	line:1390
+_I2CMD::PMD1bits.I2CMD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1549;"	d	line:1549
+_I2COV::I2CSTATbits.I2COV	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1399;"	d	line:1399
+_I2CSIDL::I2CCONbits.I2CSIDL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1389;"	d	line:1389
+_IC1IE::IEC0bits.IC1IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1299;"	d	line:1299
+_IC1IF::IFS0bits.IC1IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1274;"	d	line:1274
+_IC1IP::IPC0bits.IC1IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1324;"	d	line:1324
+_IC1MD::PMD2bits.IC1MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1557;"	d	line:1557
+_IC2IE::IEC0bits.IC2IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1302;"	d	line:1302
+_IC2IF::IFS0bits.IC2IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1277;"	d	line:1277
+_IC2IP::IPC1bits.IC2IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1329;"	d	line:1329
+_IC2MD::PMD2bits.IC2MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1558;"	d	line:1558
+_IDLE::RCONbits.IDLE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1512;"	d	line:1512
+_IF::CORCONbits.IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1232;"	d	line:1232
+_INT0EP::INTCON2bits.INT0EP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1266;"	d	line:1266
+_INT0IE::IEC0bits.INT0IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1298;"	d	line:1298
+_INT0IF::IFS0bits.INT0IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1273;"	d	line:1273
+_INT0IP::IPC0bits.INT0IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1323;"	d	line:1323
+_INT1EP::INTCON2bits.INT1EP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1267;"	d	line:1267
+_INT1IE::IEC1bits.INT1IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1316;"	d	line:1316
+_INT1IF::IFS1bits.INT1IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1291;"	d	line:1291
+_INT1IP::IPC4bits.INT1IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1347;"	d	line:1347
+_INT2EP::INTCON2bits.INT2EP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1268;"	d	line:1268
+_INT2IE::IEC1bits.INT2IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1317;"	d	line:1317
+_INT2IF::IFS1bits.INT2IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1292;"	d	line:1292
+_INT2IP::IPC5bits.INT2IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1350;"	d	line:1350
+_IOPUWR::RCONbits.IOPUWR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1521;"	d	line:1521
+_IPL3::CORCONbits.IPL3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1235;"	d	line:1235
+_IPL::SRbits.IPL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1221;"	d	line:1221
+_IPMIEN::I2CCONbits.IPMIEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1387;"	d	line:1387
+_ISR::__attribute__((interrupt))	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	2193;"	d	line:2193
+_ISRFAST::__attribute__((interrupt,shado	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	2194;"	d	line:2194
+_IWCOL::I2CSTATbits.IWCOL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1400;"	d	line:1400
+_LATB0::LATBbits.LATB0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1476;"	d	line:1476
+_LATB1::LATBbits.LATB1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1477;"	d	line:1477
+_LATB2::LATBbits.LATB2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1478;"	d	line:1478
+_LATB3::LATBbits.LATB3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1479;"	d	line:1479
+_LATB4::LATBbits.LATB4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1480;"	d	line:1480
+_LATB5::LATBbits.LATB5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1481;"	d	line:1481
+_LATB6::LATBbits.LATB6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1482;"	d	line:1482
+_LATB7::LATBbits.LATB7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1483;"	d	line:1483
+_LATC13::LATCbits.LATC13	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1496;"	d	line:1496
+_LATC14::LATCbits.LATC14	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1497;"	d	line:1497
+_LATC15::LATCbits.LATC15	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1498;"	d	line:1498
+_LATD0::LATDbits.LATD0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1507;"	d	line:1507
+_LOCK::OSCCONbits.LOCK	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1528;"	d	line:1528
+_LPOSCEN::OSCCONbits.LPOSCEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1526;"	d	line:1526
+_LVDEN::RCONbits.LVDEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1519;"	d	line:1519
+_LVDIE::IEC2bits.LVDIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1320;"	d	line:1320
+_LVDIF::IFS2bits.LVDIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1295;"	d	line:1295
+_LVDIP::IPC10bits.LVDIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1353;"	d	line:1353
+_LVDL::RCONbits.LVDL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1518;"	d	line:1518
+_MATHERR::INTCON1bits.MATHERR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1259;"	d	line:1259
+_MI2CIE::IEC0bits.MI2CIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1312;"	d	line:1312
+_MI2CIF::IFS0bits.MI2CIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1287;"	d	line:1287
+_MI2CIP::IPC3bits.MI2CIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1343;"	d	line:1343
+_N::SRbits.N	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1219;"	d	line:1219
+_NEAR::__attribute__((near))	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	2172;"	d	line:2172
+_NOSC::OSCCONbits.NOSC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1530;"	d	line:1530
+_NSTDIS::INTCON1bits.NSTDIS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1263;"	d	line:1263
+_NVMIE::IEC0bits.NVMIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1310;"	d	line:1310
+_NVMIF::IFS0bits.NVMIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1285;"	d	line:1285
+_NVMIP::IPC3bits.NVMIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1341;"	d	line:1341
+_OA::SRbits.OA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1229;"	d	line:1229
+_OAB::SRbits.OAB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1225;"	d	line:1225
+_OB::SRbits.OB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1228;"	d	line:1228
+_OC1IE::IEC0bits.OC1IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1300;"	d	line:1300
+_OC1IF::IFS0bits.OC1IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1275;"	d	line:1275
+_OC1IP::IPC0bits.OC1IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1325;"	d	line:1325
+_OC1MD::PMD2bits.OC1MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1555;"	d	line:1555
+_OC2IE::IEC0bits.OC2IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1303;"	d	line:1303
+_OC2IF::IFS0bits.OC2IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1278;"	d	line:1278
+_OC2IP::IPC1bits.OC2IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1330;"	d	line:1330
+_OC2MD::PMD2bits.OC2MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1556;"	d	line:1556
+_OSCFAIL::INTCON1bits.OSCFAIL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1256;"	d	line:1256
+_OSWEN::OSCCONbits.OSWEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1525;"	d	line:1525
+_OV::SRbits.OV	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1218;"	d	line:1218
+_OVATE::INTCON1bits.OVATE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1262;"	d	line:1262
+_OVBTE::INTCON1bits.OVBTE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1261;"	d	line:1261
+_P::I2CSTATbits.P	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1397;"	d	line:1397
+_PCFG0::ADPCFGbits.PCFG0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1436;"	d	line:1436
+_PCFG1::ADPCFGbits.PCFG1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1437;"	d	line:1437
+_PCFG2::ADPCFGbits.PCFG2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1438;"	d	line:1438
+_PCFG3::ADPCFGbits.PCFG3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1439;"	d	line:1439
+_PCFG4::ADPCFGbits.PCFG4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1440;"	d	line:1440
+_PCFG5::ADPCFGbits.PCFG5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1441;"	d	line:1441
+_PCFG6::ADPCFGbits.PCFG6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1442;"	d	line:1442
+_PCFG7::ADPCFGbits.PCFG7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1443;"	d	line:1443
+_PEN::I2CCONbits.PEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1378;"	d	line:1378
+_PERSISTENT::__attribute__((persistent))	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	2171;"	d	line:2171
+_POR::RCONbits.POR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1510;"	d	line:1510
+_POST::OSCCONbits.POST	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1529;"	d	line:1529
+_PROGOP::NVMCONbits.PROGOP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1540;"	d	line:1540
+_PSV::CORCONbits.PSV	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1234;"	d	line:1234
+_RA::SRbits.RA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1220;"	d	line:1220
+_RB0::PORTBbits.RB0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1466;"	d	line:1466
+_RB1::PORTBbits.RB1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1467;"	d	line:1467
+_RB2::PORTBbits.RB2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1468;"	d	line:1468
+_RB3::PORTBbits.RB3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1469;"	d	line:1469
+_RB4::PORTBbits.RB4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1470;"	d	line:1470
+_RB5::PORTBbits.RB5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1471;"	d	line:1471
+_RB6::PORTBbits.RB6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1472;"	d	line:1472
+_RB7::PORTBbits.RB7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1473;"	d	line:1473
+_RBF::I2CSTATbits.RBF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1394;"	d	line:1394
+_RC13::PORTCbits.RC13	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1491;"	d	line:1491
+_RC14::PORTCbits.RC14	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1492;"	d	line:1492
+_RC15::PORTCbits.RC15	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1493;"	d	line:1493
+_RCEN::I2CCONbits.RCEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1379;"	d	line:1379
+_RD0::PORTDbits.RD0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1504;"	d	line:1504
+_RND::CORCONbits.RND	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1233;"	d	line:1233
+_RSEN::I2CCONbits.RSEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1377;"	d	line:1377
+_R_W::I2CSTATbits.R_W	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1395;"	d	line:1395
+_S::I2CSTATbits.S	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1396;"	d	line:1396
+_SA::SRbits.SA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1227;"	d	line:1227
+_SAB::SRbits.SAB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1224;"	d	line:1224
+_SAMC::ADCON3bits.SAMC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1427;"	d	line:1427
+_SAMP::ADCON1bits.SAMP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1409;"	d	line:1409
+_SATA::CORCONbits.SATA	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1239;"	d	line:1239
+_SATB::CORCONbits.SATB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1238;"	d	line:1238
+_SATDW::CORCONbits.SATDW	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1237;"	d	line:1237
+_SB::SRbits.SB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1226;"	d	line:1226
+_SCLREL::I2CCONbits.SCLREL	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1388;"	d	line:1388
+_SEN::I2CCONbits.SEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1376;"	d	line:1376
+_SI2CIE::IEC0bits.SI2CIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1311;"	d	line:1311
+_SI2CIF::IFS0bits.SI2CIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1286;"	d	line:1286
+_SI2CIP::IPC3bits.SI2CIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1342;"	d	line:1342
+_SLEEP::RCONbits.SLEEP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1513;"	d	line:1513
+_SMEN::I2CCONbits.SMEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1384;"	d	line:1384
+_SMPI::ADCON2bits.SMPI	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1419;"	d	line:1419
+_SPI1IE::IEC0bits.SPI1IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1306;"	d	line:1306
+_SPI1IF::IFS0bits.SPI1IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1281;"	d	line:1281
+_SPI1IP::IPC2bits.SPI1IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1335;"	d	line:1335
+_SPI1MD::PMD1bits.SPI1MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1548;"	d	line:1548
+_SSRC::ADCON1bits.SSRC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1411;"	d	line:1411
+_STKERR::INTCON1bits.STKERR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1257;"	d	line:1257
+_STREN::I2CCONbits.STREN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1382;"	d	line:1382
+_SWDTEN::RCONbits.SWDTEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1515;"	d	line:1515
+_SWR::RCONbits.SWR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1516;"	d	line:1516
+_T1IE::IEC0bits.T1IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1301;"	d	line:1301
+_T1IF::IFS0bits.T1IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1276;"	d	line:1276
+_T1IP::IPC0bits.T1IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1326;"	d	line:1326
+_T1MD::PMD1bits.T1MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1550;"	d	line:1550
+_T2IE::IEC0bits.T2IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1304;"	d	line:1304
+_T2IF::IFS0bits.T2IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1279;"	d	line:1279
+_T2IP::IPC1bits.T2IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1331;"	d	line:1331
+_T2MD::PMD1bits.T2MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1551;"	d	line:1551
+_T3IE::IEC0bits.T3IE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1305;"	d	line:1305
+_T3IF::IFS0bits.T3IF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1280;"	d	line:1280
+_T3IP::IPC1bits.T3IP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1332;"	d	line:1332
+_T3MD::PMD1bits.T3MD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1552;"	d	line:1552
+_TBF::I2CSTATbits.TBF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1393;"	d	line:1393
+_TRAPR::RCONbits.TRAPR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1522;"	d	line:1522
+_TRISB0::TRISBbits.TRISB0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1456;"	d	line:1456
+_TRISB1::TRISBbits.TRISB1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1457;"	d	line:1457
+_TRISB2::TRISBbits.TRISB2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1458;"	d	line:1458
+_TRISB3::TRISBbits.TRISB3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1459;"	d	line:1459
+_TRISB4::TRISBbits.TRISB4	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1460;"	d	line:1460
+_TRISB5::TRISBbits.TRISB5	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1461;"	d	line:1461
+_TRISB6::TRISBbits.TRISB6	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1462;"	d	line:1462
+_TRISB7::TRISBbits.TRISB7	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1463;"	d	line:1463
+_TRISC13::TRISCbits.TRISC13	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1486;"	d	line:1486
+_TRISC14::TRISCbits.TRISC14	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1487;"	d	line:1487
+_TRISC15::TRISCbits.TRISC15	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1488;"	d	line:1488
+_TRISD0::TRISDbits.TRISD0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1501;"	d	line:1501
+_TRSTAT::I2CSTATbits.TRSTAT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1404;"	d	line:1404
+_TUN0::OSCTUNbits.TUN0	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1534;"	d	line:1534
+_TUN1::OSCTUNbits.TUN1	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1535;"	d	line:1535
+_TUN2::OSCTUNbits.TUN2	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1536;"	d	line:1536
+_TUN3::OSCTUNbits.TUN3	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1537;"	d	line:1537
+_TWRI::NVMCONbits.TWRI	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1541;"	d	line:1541
+_U1RXIE::IEC0bits.U1RXIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1307;"	d	line:1307
+_U1RXIF::IFS0bits.U1RXIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1282;"	d	line:1282
+_U1RXIP::IPC2bits.U1RXIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1336;"	d	line:1336
+_U1TXIE::IEC0bits.U1TXIE	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1308;"	d	line:1308
+_U1TXIF::IFS0bits.U1TXIF	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1283;"	d	line:1283
+_U1TXIP::IPC2bits.U1TXIP	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1337;"	d	line:1337
+_US::CORCONbits.US	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1242;"	d	line:1242
+_VCFG::ADCON2bits.VCFG	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1422;"	d	line:1422
+_WDTO::RCONbits.WDTO	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1514;"	d	line:1514
+_WR::NVMCONbits.WR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1544;"	d	line:1544
+_WREN::NVMCONbits.WREN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1543;"	d	line:1543
+_WRERR::NVMCONbits.WRERR	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1542;"	d	line:1542
+_XB::XBREVbits.XB	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1252;"	d	line:1252
+_XBSS::(N)__attribute__((space(xmemor	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	2159;"	d	line:2159
+_XDATA::(N)__attribute__((space(xmemor	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	2160;"	d	line:2160
+_XMODEN::MODCONbits.XMODEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1249;"	d	line:1249
+_XWM::MODCONbits.XWM	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1245;"	d	line:1245
+_YBSS::(N)__attribute__((space(ymemor	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	2161;"	d	line:2161
+_YDATA::(N)__attribute__((space(ymemor	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	2162;"	d	line:2162
+_YMODEN::MODCONbits.YMODEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1248;"	d	line:1248
+_YWM::MODCONbits.YWM	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1246;"	d	line:1246
+_Z::SRbits.Z	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1217;"	d	line:1217
+__30F2011_H	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	61;"	d	line:61
+__ADC12_H	C:\Microchip\Microchip C30\support\peripheral_30F_24H_33F\adc12.h	12;"	d	line:12
+adcresult	C:\Users\Public\Documents\TEMP\ADC\adc_test.c	80;"	l	line:80
+adcresultf	C:\Users\Public\Documents\TEMP\ADC\adc_test.c	81;"	l	line:81
+icxbuf	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	563;"	m	line:563	struct:tagIC
+icxcon	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	564;"	m	line:564	struct:tagIC
+main	C:\Users\Public\Documents\TEMP\ADC\adc_test.c	78;"	f	line:78	signature:(void)
+ocxcon	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	606;"	m	line:606	struct:tagOC
+ocxr	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	605;"	m	line:605	struct:tagOC
+ocxrs	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	604;"	m	line:604	struct:tagOC
+spixbuf	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	839;"	m	line:839	struct:tagSPI
+spixcon	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	838;"	m	line:838	struct:tagSPI
+spixstat	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	837;"	m	line:837	struct:tagSPI
+tagACC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	89;"	s	line:89
+tagADCHSBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	952;"	s	line:952
+tagADCON1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	910;"	s	line:910
+tagADCON2BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	926;"	s	line:926
+tagADCON3BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	941;"	s	line:941
+tagADCSSLBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	979;"	s	line:979
+tagADPCFGBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	964;"	s	line:964
+tagCNEN1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	445;"	s	line:445
+tagCNPU1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	460;"	s	line:460
+tagCORCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	171;"	s	line:171
+tagDISICNTBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	221;"	s	line:221
+tagI2CADDBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	728;"	s	line:728
+tagI2CBRGBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	678;"	s	line:678
+tagI2CCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	686;"	s	line:686
+tagI2CRCVBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	650;"	s	line:650
+tagI2CSTATBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	708;"	s	line:708
+tagI2CTRNBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	664;"	s	line:664
+tagIC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	562;"	s	line:562
+tagICxCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	572;"	s	line:572
+tagIEC0BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	303;"	s	line:303
+tagIEC1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	325;"	s	line:325
+tagIEC2BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	335;"	s	line:335
+tagIFS0BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	262;"	s	line:262
+tagIFS1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	284;"	s	line:284
+tagIFS2BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	294;"	s	line:294
+tagINTCON1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	233;"	s	line:233
+tagINTCON2BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	250;"	s	line:250
+tagINTTREGBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	426;"	s	line:426
+tagIPC0BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	344;"	s	line:344
+tagIPC10BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	417;"	s	line:417
+tagIPC1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	358;"	s	line:358
+tagIPC2BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	372;"	s	line:372
+tagIPC3BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	386;"	s	line:386
+tagIPC4BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	400;"	s	line:400
+tagIPC5BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	408;"	s	line:408
+tagLATBBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1029;"	s	line:1029
+tagLATCBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1064;"	s	line:1064
+tagLATDBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1090;"	s	line:1090
+tagMODCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	189;"	s	line:189
+tagNVMCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1155;"	s	line:1155
+tagOC	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	603;"	s	line:603
+tagOCxCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	614;"	s	line:614
+tagOSCCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1122;"	s	line:1122
+tagOSCTUNBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1139;"	s	line:1139
+tagPMD1BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1182;"	s	line:1182
+tagPMD2BITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1200;"	s	line:1200
+tagPORTBBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1014;"	s	line:1014
+tagPORTCBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1054;"	s	line:1054
+tagPORTDBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1082;"	s	line:1082
+tagRCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1103;"	s	line:1103
+tagSPI	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	836;"	s	line:836
+tagSPIxCONBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	858;"	s	line:858
+tagSPIxSTATBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	846;"	s	line:846
+tagSRBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	151;"	s	line:151
+tagTCON_16BIT	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	479;"	s	line:479
+tagTCON_EVEN	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	507;"	s	line:507
+tagTCON_ODD	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	521;"	s	line:521
+tagTRISBBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	999;"	s	line:999
+tagTRISCBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1044;"	s	line:1044
+tagTRISDBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	1074;"	s	line:1074
+tagUART	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	739;"	s	line:739
+tagUxMODEBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	751;"	s	line:751
+tagUxRXREGBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	798;"	s	line:798
+tagUxSTABITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	767;"	s	line:767
+tagUxTXREGBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	784;"	s	line:784
+tagXBREVBITS	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	213;"	s	line:213
+uxbrg	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	744;"	m	line:744	struct:tagUART
+uxmode	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	740;"	m	line:740	struct:tagUART
+uxrxreg	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	743;"	m	line:743	struct:tagUART
+uxsta	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	741;"	m	line:741	struct:tagUART
+uxtxreg	C:\Microchip\Microchip C30\support\dsPIC30F\h\p30f2011.h	742;"	m	line:742	struct:tagUART

@@ -1,0 +1,76 @@
+// Generated for: spectre
+// Generated on: Nov 10 13:09:00 2010
+// Design library name: memr
+// Design cell name: b_memr_test
+// Design view name: schematic
+simulator lang=spectre
+global 0
+parameters Rinit=55M Vtn=-1 Vtp=1 alpha=0 Cr=10m Rmax=1e8 Rmin=1e7 betan=1 \
+    betap=1 vlim=100
+inline subckt MULT v1 v2 out
+R1 v1 0  resistor r=1000G
+R2 v2 0  resistor r=1000G
+E1 ( out 0  v1 0 v2 0 ) pvcvs coeffs=[0 0 0 0 1 ]
+ends MULT
+
+// Library name: memr
+// Cell name: vcR
+// View name: schematic
+subckt vcR R rn rp
+    R1 (rp net024) resistor r=1e-6
+    R0 (net012 rn) resistor r=1e-6
+    R2 (net030 net020) resistor r=1e-6
+    E0 (net18 0) ccvs rm=1e6 probe=V0
+    V0 (net020 net012) vsource dc=0 type=dc
+    G1 (net024 net030 net21 0) vcvs gain=1.0
+    G0 (R net18 net21) MULT
+ends vcR
+// End of subcircuit definition.
+
+// Library name: memr
+// Cell name: b_memr2
+// View name: schematic
+subckt b_memr2 R rn rp vinit
+parameters _par0
+    I36 (net036 net034) diode_simple
+    I35 (net035 net036) diode_simple
+    I30 (rp rn net022 net054) memr_f vth=1.0 vo=0.10 Io=1e-5
+    W0 (net045 vinit net031 0) relay ropen=1T rclosed=1.0
+    V0 (net031 0) vsource type=pwl wave=[ 1u 5 2u 0 ]
+    E0 (R net042 net028 0) vcvs gain=(Rmax-Rmin)/20e6
+    C0 (net045 0) capacitor c=_par0
+    I6 (R net025 rp) vcR
+    V5 (net034 0) vsource dc=9 type=dc
+    V4 (net035 0) vsource dc=-9 type=dc
+    V12 (net025 rn) vsource dc=0 type=dc
+    V7 (net022 net028) vsource dc=0 type=dc
+    V8 (net028 net036) vsource dc=0 type=dc
+    V11 (net054 0) vsource dc=0 type=dc
+    V6 (net028 net045) vsource dc=0 type=dc
+    V10 (net042 0) vsource dc=(Rmax+Rmin)/2e6 type=dc
+ends b_memr2
+// End of subcircuit definition.
+
+// Library name: memr
+// Cell name: b_memr_test
+// View name: schematic
+V4 (net1 0) vsource type=sine ampl=2 freq=2.5K fmmodindex=50 fmmodfreq=50
+I7 (R net020 vm net014) b_memr2 _par0=Cr
+V2 (net08 0) vsource type=pwl wave=[ 0 0 10m 10 ]
+V5 (net020 0) vsource dc=0 type=dc
+V3 (net014 0) vsource dc=-5 type=dc
+V1 (net011 vm) vsource dc=0 type=dc
+R0 (net1 net011) resistor r=1
+simulatorOptions options reltol=100e-6 vabstol=1e-6 iabstol=1e-12 temp=27 \
+    tnom=27 homotopy=all limit=delta scalem=1.0 scale=1.0 \
+    compatible=spice2 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 digits=5 \
+    cols=80 pivrel=1e-3 sensfile="../psf/sens.output" checklimitdest=psf 
+tran tran stop=10m errpreset=conservative write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts  where=rawfile
+saveOptions options save=allpub
+ahdl_include "diode.va"
+ahdl_include "memr_f.va"

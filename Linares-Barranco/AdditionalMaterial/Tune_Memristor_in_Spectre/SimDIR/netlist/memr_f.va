@@ -1,0 +1,25 @@
+// VerilogA for memr_f, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module memr_f(vp,vn,vout,vref);
+electrical vp,vn,vout,vref;
+parameter real vth=1,vo=1,Io=1e-9;
+real vd,id;
+
+analog begin
+  vd = V(vp) - V(vn);
+  if (vd>vth) begin
+     id = Io*(exp(vd/vo)-exp(vth/vo));
+  end else if (vd<-vth) begin
+     id = -Io*(exp(-vd/vo)-exp(vth/vo));
+  end else begin
+     id=0;
+  end
+
+  I(vout,vref) <+ -id;
+end
+
+
+endmodule

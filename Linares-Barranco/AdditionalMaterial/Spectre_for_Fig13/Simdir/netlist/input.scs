@@ -1,0 +1,167 @@
+// Generated for: spectre
+// Generated on: Nov 11 13:00:18 2010
+// Design library name: memr
+// Design cell name: memr_array_if2
+// Design view name: schematic
+simulator lang=spectre
+global 0
+parameters Tperiod=200m TDpre=2.5m TDpos=1.5m Vtn=-1 Vtp=1 alpha=0 Cr=0.5m \
+    Rmax=1e8 Rmin=1e7 betan=1 betap=1 vlim=100
+inline subckt MULT v1 v2 out
+R1 v1 0  resistor r=1000G
+R2 v2 0  resistor r=1000G
+E1 ( out 0  v1 0 v2 0 ) pvcvs coeffs=[0 0 0 0 1 ]
+ends MULT
+
+// Library name: memr
+// Cell name: vcR
+// View name: schematic
+subckt vcR R rn rp
+    R1 (rp net024) resistor r=1e-6
+    R0 (net012 rn) resistor r=1e-6
+    R2 (net030 net020) resistor r=1e-6
+    E0 (net18 0) ccvs rm=1e6 probe=V0
+    V0 (net020 net012) vsource dc=0 type=dc
+    G1 (net024 net030 net21 0) vcvs gain=1.0
+    G0 (R net18 net21) MULT
+ends vcR
+// End of subcircuit definition.
+
+// Library name: memr
+// Cell name: b_memr
+// View name: schematic
+subckt b_memr R rn rp vinit
+parameters x1 y1 x2 y2 x3 y3 x4 y4 _par0
+    W0 (net045 vinit net031 0) relay ropen=1T rclosed=1.0
+    V0 (net031 0) vsource type=pwl wave=[ 1u 5 2u 0 ]
+    E0 (R net042 net032 0) vcvs gain=(Rmax-Rmin)/20e6
+    I3 (net018 net014) diode_simple
+    I2 (net015 net018) diode_simple
+    G0 (0 net022 rp rn) vccs m=1 pwl=[ x1 y1 x2 y2 x3 y3 x4 y4 ]
+    C0 (net045 0) capacitor c=_par0
+    I6 (R rn rp) vcR
+    V7 (net022 net032) vsource dc=0 type=dc
+    V5 (net014 0) vsource dc=9 type=dc
+    V8 (net032 net018) vsource dc=0 type=dc
+    V4 (net015 0) vsource dc=-9 type=dc
+    V6 (net032 net045) vsource dc=0 type=dc
+    V10 (net042 0) vsource dc=(Rmax+Rmin)/2e6 type=dc
+ends b_memr
+// End of subcircuit definition.
+
+// Library name: memr
+// Cell name: memr_array_if2
+// View name: schematic
+W3 (net066 net0141 net041 0) relay ropen=1T rclosed=1.0
+W2 (net068 net0143 net045 0) relay ropen=1T rclosed=1.0
+W0 (net028 net056 net021 0) relay ropen=1T rclosed=1.0
+W1 (net070 net0145 net049 0) relay ropen=1T rclosed=1.0
+I40 (net066 vo4 net041 net0127) triggered_spike tfall_sw=1u trise_sw=1u \
+        Vsw_on=1 Vsw_off=-1 ttail=50m tspike=1m VB=-0.5 VA=0.9 tfall=.1m \
+        trise=.1m vtrans=1
+I39 (net068 vo3 net045 net0131) triggered_spike tfall_sw=1u trise_sw=1u \
+        Vsw_on=1 Vsw_off=-1 ttail=50m tspike=1m VB=-0.5 VA=0.9 tfall=.1m \
+        trise=.1m vtrans=1
+I24 (net028 vo1 net021 net0135) triggered_spike tfall_sw=1u trise_sw=1u \
+        Vsw_on=1 Vsw_off=-1 ttail=50m tspike=1m VB=-0.5 VA=0.9 tfall=.1m \
+        trise=.1m vtrans=1
+I26 (net070 vo2 net049 net0139) triggered_spike tfall_sw=1u trise_sw=1u \
+        Vsw_on=1 Vsw_off=-1 ttail=50m tspike=1m VB=-0.5 VA=0.9 tfall=.1m \
+        trise=.1m vtrans=1
+C3 (net0141 net066) capacitor c=1n ic=0
+C2 (net0143 net068) capacitor c=1n ic=0
+C0 (net056 net028) capacitor c=1n ic=0
+C1 (net0145 net070) capacitor c=1n ic=0
+E3 (net066 0 vo4 net0141) vcvs gain=10000.0
+E2 (net068 0 vo3 net0143) vcvs gain=10000.0
+E1 (net070 0 vo2 net0145) vcvs gain=10000.0
+E0 (net028 0 vo1 net056) vcvs gain=10000.0
+V12 (net0161 0) vsource type=pwl delay=TDpre+25m pwlperiod=Tperiod wave=[ \
+        0 0 100.0u 900.0m 1m 900.0m 1.1m -300.0m 50m 0 ]
+V11 (net011 0) vsource type=pwl delay=TDpre pwlperiod=Tperiod wave=[ 0 0 \
+        100.0u 900.0m 1m 900.0m 1.1m -300.0m 50m 0 ]
+I44 (r41 net094 vm1 net0171) b_memr x1=-vlim y1=alpha*Vtn-betan*(vlim-Vtn) \
+        x2=Vtn y2=alpha*Vtn x3=Vtp y3=alpha*Vtp x4=vlim \
+        y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+I43 (r43 net094 vm3 net0175) b_memr x1=-vlim y1=alpha*Vtn-betan*(vlim-Vtn) \
+        x2=Vtn y2=alpha*Vtn x3=Vtp y3=alpha*Vtp x4=vlim \
+        y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+I42 (r42 net094 vm2 net0179) b_memr x1=-vlim y1=alpha*Vtn-betan*(vlim-Vtn) \
+        x2=Vtn y2=alpha*Vtn x3=Vtp y3=alpha*Vtp x4=vlim \
+        y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+I41 (r44 net094 vm4 net0183) b_memr x1=-vlim y1=alpha*Vtn-betan*(vlim-Vtn) \
+        x2=Vtn y2=alpha*Vtn x3=Vtp y3=alpha*Vtp x4=vlim \
+        y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+I38 (r34 net0115 vm4 net0187) b_memr x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+I37 (r32 net0115 vm2 net0191) b_memr x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+I17 (r14 net038 vm4 net0195) b_memr x1=-vlim y1=alpha*Vtn-betan*(vlim-Vtn) \
+        x2=Vtn y2=alpha*Vtn x3=Vtp y3=alpha*Vtp x4=vlim \
+        y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+I15 (r12 net038 vm2 net0199) b_memr x1=-vlim y1=alpha*Vtn-betan*(vlim-Vtn) \
+        x2=Vtn y2=alpha*Vtn x3=Vtp y3=alpha*Vtp x4=vlim \
+        y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+I27 (r24 net0118 vm4 net0203) b_memr x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+I28 (r22 net0118 vm2 net0207) b_memr x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+I29 (r23 net0118 vm3 net0211) b_memr x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+I30 (r21 net0118 vm1 net0215) b_memr x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+I16 (r13 net038 vm3 net0219) b_memr x1=-vlim y1=alpha*Vtn-betan*(vlim-Vtn) \
+        x2=Vtn y2=alpha*Vtn x3=Vtp y3=alpha*Vtp x4=vlim \
+        y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+I0 (r11 net038 vm1 net0223) b_memr x1=-vlim y1=alpha*Vtn-betan*(vlim-Vtn) \
+        x2=Vtn y2=alpha*Vtn x3=Vtp y3=alpha*Vtp x4=vlim \
+        y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+I35 (r31 net0115 vm1 net0227) b_memr x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+I36 (r33 net0115 vm3 net0231) b_memr x1=-vlim \
+        y1=alpha*Vtn-betan*(vlim-Vtn) x2=Vtn y2=alpha*Vtn x3=Vtp \
+        y3=alpha*Vtp x4=vlim y4=alpha*Vtp+betap*(vlim-Vtp) _par0=Cr
+V18 (net0199 0) vsource dc=-6 type=dc
+V14 (net0171 0) vsource dc=6 type=dc
+V15 (net0179 0) vsource dc=6 type=dc
+V16 (net0191 0) vsource dc=3 type=dc
+V17 (net0207 0) vsource dc=-3 type=dc
+V21 (net0231 0) vsource dc=3 type=dc
+V10 (net0215 0) vsource dc=-3 type=dc
+V22 (net0175 0) vsource dc=6 type=dc
+V13 (net0227 0) vsource dc=3 type=dc
+V24 (net0187 0) vsource dc=3 type=dc
+V25 (net0203 0) vsource dc=-3 type=dc
+V9 (net0223 0) vsource dc=-6 type=dc
+V19 (net0219 0) vsource dc=-6 type=dc
+V8 (net094 net0141) vsource dc=0 type=dc
+V26 (net0195 0) vsource dc=-6 type=dc
+V7 (net0115 net0143) vsource dc=0 type=dc
+V23 (net0183 0) vsource dc=6 type=dc
+V5 (net038 net056) vsource dc=0 type=dc
+V4 (0 vm4) vsource dc=0 type=dc
+V3 (0 vm3) vsource dc=0 type=dc
+V20 (net0211 0) vsource dc=-3 type=dc
+V6 (net0118 net0145) vsource dc=0 type=dc
+V2 (net0161 vm2) vsource dc=0 type=dc
+V1 (net011 vm1) vsource dc=0 type=dc
+simulatorOptions options reltol=100e-6 vabstol=1e-6 iabstol=1e-12 temp=27 \
+    tnom=27 homotopy=all limit=delta scalem=1.0 scale=1.0 \
+    compatible=spice2 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 digits=5 \
+    cols=80 pivrel=1e-3 sensfile="../psf/sens.output" checklimitdest=psf 
+tran tran stop=300 errpreset=conservative write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts  where=rawfile
+saveOptions options save=allpub
+ahdl_include "triggered_spike.va"
+ahdl_include "diode.va"

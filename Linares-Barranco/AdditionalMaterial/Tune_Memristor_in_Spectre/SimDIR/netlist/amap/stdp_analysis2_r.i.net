@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"net012v" "net012"
+"stdp_1v" "stdp<1>"
+"stdp_2v" "stdp<2>"
+"stdp_3v" "stdp<3>"
+"posv" "pos"
+"vstimv" "vstim"
+"prev" "pre"
+"0v" "gnd!"
